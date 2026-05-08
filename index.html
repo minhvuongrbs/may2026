@@ -223,6 +223,57 @@ section { padding: 72px 0; border-top: 1px solid var(--line); }
   margin-bottom: 24px;
   letter-spacing: -0.01em;
 }
+
+/* Travel ribbon — Day 0 + Day 4 */
+.travel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 12px;
+  padding: 18px 24px;
+  display: grid;
+  grid-template-columns: minmax(160px, auto) 1fr;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.travel.return-leg { margin-bottom: 0; margin-top: 20px; }
+.travel-tag {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-right: 1px solid var(--line);
+  padding-right: 24px;
+}
+.travel-tag .icon { font-size: 22px; line-height: 1; }
+.travel-tag .label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-top: 2px;
+}
+.travel-tag .date { font-size: 13px; color: var(--ink-faint); }
+.travel-legs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.leg .from-to {
+  font-family: 'Fraunces', serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  letter-spacing: -0.01em;
+}
+.leg .time {
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  letter-spacing: 0.04em;
+}
+
 .days {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -394,6 +445,10 @@ footer .mono {
   .compare-table th, .compare-table td { padding: 12px 14px; font-size: 14px; }
   .compare-table th:first-child { font-size: 11px; }
   .compare-table thead th .pick-badge { display: block; margin: 4px 0 0; width: fit-content; }
+  .travel { grid-template-columns: 1fr; gap: 14px; padding: 18px 20px; }
+  .travel-tag { border-right: none; border-bottom: 1px solid var(--line); padding-right: 0; padding-bottom: 12px; flex-direction: row; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .travel-tag .label { margin-top: 0; }
+  .travel-legs { grid-template-columns: 1fr; gap: 12px; }
 }
 
 /* Reveal animation */
@@ -486,14 +541,34 @@ footer .mono {
     </div>
 
     <h3 class="itinerary-h">Lịch trình</h3>
+
+    <div class="travel">
+      <div class="travel-tag">
+        <div class="icon">🚌</div>
+        <div class="label">Day 00 · Xuất phát</div>
+        <div class="date">Thứ Năm · 15/5/2026</div>
+      </div>
+      <div class="travel-legs">
+        <div class="leg">
+          <div class="from-to">Đà Nẵng → Quy Nhơn</div>
+          <div class="time">~22:00 · xe đêm · ~7h</div>
+        </div>
+        <div class="leg">
+          <div class="from-to">HCM → Quy Nhơn</div>
+          <div class="time">~19:00 · xe đêm · ~11h</div>
+        </div>
+      </div>
+    </div>
+
     <div class="days">
       <div class="day">
-        <div class="day-num">Day 01 · Arrival</div>
+        <div class="day-num">Day 01 · Arrival + North</div>
         <div class="day-date">Thứ Sáu · 16/5/2026</div>
-        <h4>Tới Quy Nhơn</h4>
-        <div class="slot"><span class="when">Sáng</span><p>2 đoàn tới bến xe Quy Nhơn. Ăn sáng bún chả cá, check-in khách sạn, nghỉ.</p></div>
-        <div class="slot"><span class="when">Chiều</span><p>Eo Gió, Tịnh Xá Ngọc Hòa. Ngắm hoàng hôn ở Eo Gió.</p></div>
-        <div class="slot"><span class="when">Tối</span><p>Ăn hải sản đường Xuân Diệu.</p></div>
+        <h4>Tới Quy Nhơn — Eo Gió</h4>
+        <div class="slot"><span class="when">Sáng (5–7h)</span><p>2 đoàn tới bến xe Quy Nhơn. Ăn sáng bún chả cá. Check-in khách sạn, gửi đồ, nghỉ ngơi.</p></div>
+        <div class="slot"><span class="when">Trưa</span><p>Tháp Đôi (Cham tower trong thành phố). Ăn trưa bánh hỏi cháo lòng.</p></div>
+        <div class="slot"><span class="when">Chiều</span><p>Eo Gió — con đường ven biển. Tịnh Xá Ngọc Hòa (tượng Quan Âm 30m). Ngắm hoàng hôn ở Eo Gió.</p></div>
+        <div class="slot"><span class="when">Tối</span><p>Đi cầu Thị Nại (cầu vượt biển dài nhất VN). Hải sản đường Xuân Diệu.</p></div>
       </div>
       <div class="day">
         <div class="day-num">Day 02 · Main day</div>
@@ -501,15 +576,35 @@ footer .mono {
         <h4>Kỳ Co — Hòn Khô full day</h4>
         <div class="slot"><span class="when">Sáng</span><p>Cano ra Kỳ Co. Tắm biển, có thể chơi mô tô nước, dù bay (tự chọn).</p></div>
         <div class="slot"><span class="when">Trưa</span><p>Ăn trưa hải sản trên đảo. Ra Bãi Dứa lặn ngắm san hô.</p></div>
-        <div class="slot"><span class="when">Tối</span><p>Cà phê biển, dạo Quảng trường. Có thể đi karaoke nếu nhóm muốn.</p></div>
+        <div class="slot"><span class="when">Chiều</span><p>Hòn Khô tiếp tục snorkel / chèo SUP. Về khách sạn nghỉ.</p></div>
+        <div class="slot"><span class="when">Tối</span><p>Cà phê biển, dạo Quảng trường Quy Nhơn. Karaoke (tùy chọn).</p></div>
       </div>
       <div class="day">
-        <div class="day-num">Day 03 · Return</div>
+        <div class="day-num">Day 03 · South + Return</div>
         <div class="day-date">Chủ Nhật · 18/5/2026</div>
-        <h4>City tour và về</h4>
-        <div class="slot"><span class="when">Sáng</span><p>Ghềnh Ráng Tiên Sa, mộ Hàn Mặc Tử, bãi Hoàng Hậu, Tháp Đôi.</p></div>
-        <div class="slot"><span class="when">Trưa</span><p>Ăn bánh xèo tôm nhảy. Mua đặc sản.</p></div>
-        <div class="slot"><span class="when">Chiều</span><p>2 đoàn ra bến xe về.</p></div>
+        <h4>City tour Nam và lên xe về</h4>
+        <div class="slot"><span class="when">Sáng</span><p>Ghềnh Ráng Tiên Sa, mộ Hàn Mặc Tử, Bãi Trứng (Bãi Đá Trứng), Bãi Hoàng Hậu.</p></div>
+        <div class="slot"><span class="when">Trưa</span><p>Tháp Bánh Ít (cụm Cham tower đẹp nhất Bình Định). Ăn bánh xèo tôm nhảy.</p></div>
+        <div class="slot"><span class="when">Chiều</span><p>Đồi cát Phương Mai (chụp ảnh) hoặc spa/cà phê thư giãn. Mua đặc sản: rượu Bàu Đá, bánh tráng, mực một nắng.</p></div>
+        <div class="slot"><span class="when">Tối</span><p>Lên xe đêm về (ĐN ~20:00, HCM ~17:00).</p></div>
+      </div>
+    </div>
+
+    <div class="travel return-leg">
+      <div class="travel-tag">
+        <div class="icon">🏠</div>
+        <div class="label">Day 04 · Về tới nhà</div>
+        <div class="date">Thứ Hai · 19/5/2026</div>
+      </div>
+      <div class="travel-legs">
+        <div class="leg">
+          <div class="from-to">Quy Nhơn → Đà Nẵng</div>
+          <div class="time">~03:00 sáng · tới bến xe ĐN</div>
+        </div>
+        <div class="leg">
+          <div class="from-to">Quy Nhơn → HCM</div>
+          <div class="time">~04:00 sáng · tới bến xe Miền Đông</div>
+        </div>
       </div>
     </div>
   </div>
@@ -556,30 +651,70 @@ footer .mono {
     </div>
 
     <h3 class="itinerary-h">Lịch trình</h3>
+
+    <div class="travel">
+      <div class="travel-tag">
+        <div class="icon">🚌</div>
+        <div class="label">Day 00 · Xuất phát</div>
+        <div class="date">Thứ Năm · 15/5/2026</div>
+      </div>
+      <div class="travel-legs">
+        <div class="leg">
+          <div class="from-to">Đà Nẵng → Cam Ranh</div>
+          <div class="time">~18:00 · xe đêm · ~12h</div>
+        </div>
+        <div class="leg">
+          <div class="from-to">HCM → Cam Ranh</div>
+          <div class="time">~22:00 · xe đêm · ~7h</div>
+        </div>
+      </div>
+    </div>
+
     <div class="days">
       <div class="day">
         <div class="day-num">Day 01 · Arrival</div>
         <div class="day-date">Thứ Sáu · 16/5/2026</div>
         <h4>Tới Bình Hưng</h4>
-        <div class="slot"><span class="when">Sáng</span><p>2 đoàn tới Cam Ranh. Đi xe ~1.5h ra bến tàu Kênh Hòn Trâu, qua đảo Bình Hưng.</p></div>
-        <div class="slot"><span class="when">Chiều</span><p>Check-in homestay. Tắm bãi Kinh, dạo bãi Chuối.</p></div>
-        <div class="slot"><span class="when">Tối</span><p>Hải sản tại bè nổi (tôm hùm, mực nướng).</p></div>
+        <div class="slot"><span class="when">Sáng (5–7h)</span><p>2 đoàn tới Cam Ranh. Ăn sáng. Đi xe ~1.5h ra bến tàu Kênh Hòn Trâu, qua đảo Bình Hưng. Check-in homestay.</p></div>
+        <div class="slot"><span class="when">Trưa</span><p>Ăn trưa hải sản trên đảo. Nghỉ trưa.</p></div>
+        <div class="slot"><span class="when">Chiều</span><p>Tắm bãi Kinh, dạo bãi Chuối. Chèo SUP / kayak (tùy chọn). Ngắm hoàng hôn trên đảo.</p></div>
+        <div class="slot"><span class="when">Tối</span><p>Hải sản tại bè nổi (tôm hùm, mực nướng). BBQ trên đảo.</p></div>
       </div>
       <div class="day">
         <div class="day-num">Day 02 · Main day</div>
         <div class="day-date">Thứ Bảy · 17/5/2026</div>
         <h4>Tour 3 đảo và Vĩnh Hy</h4>
-        <div class="slot"><span class="when">Sáng</span><p>Cano 3 đảo: Bình Hưng — Bình Tiên — Hòn Chút. Lặn ngắm san hô, snorkel.</p></div>
+        <div class="slot"><span class="when">Sáng</span><p>Cano 3 đảo: Bình Hưng — Bình Tiên — Hòn Chút. Lặn ngắm san hô, snorkel, câu cá.</p></div>
         <div class="slot"><span class="when">Trưa</span><p>Ăn trưa hải sản trên đảo. Về Bình Hưng nghỉ.</p></div>
-        <div class="slot"><span class="when">Chiều</span><p>Sang Vĩnh Hy, đi tàu đáy kính. Tối ăn ở nhà nổi Vĩnh Hy.</p></div>
+        <div class="slot"><span class="when">Chiều</span><p>Sang Vĩnh Hy, đi tàu đáy kính ngắm san hô. Cảnh Hang Rái nếu kịp.</p></div>
+        <div class="slot"><span class="when">Tối</span><p>Ăn ở nhà nổi Vĩnh Hy.</p></div>
       </div>
       <div class="day">
-        <div class="day-num">Day 03 · Return</div>
+        <div class="day-num">Day 03 · Heritage + Return</div>
         <div class="day-date">Chủ Nhật · 18/5/2026</div>
-        <h4>VQG Núi Chúa và về</h4>
+        <h4>Núi Chúa — Phan Rang và lên xe về</h4>
         <div class="slot"><span class="when">Sáng</span><p>Hang Rái, đường ven biển VQG Núi Chúa, view Vĩnh Hy trên cao.</p></div>
-        <div class="slot"><span class="when">Trưa</span><p>Ăn trưa, mua đặc sản. Về Cam Ranh.</p></div>
-        <div class="slot"><span class="when">Chiều</span><p>Bắt xe về 2 đầu.</p></div>
+        <div class="slot"><span class="when">Trưa</span><p>Đồng cừu An Hòa (chụp ảnh) hoặc Vườn nho Thái An (thử rượu vang). Ăn trưa Phan Rang.</p></div>
+        <div class="slot"><span class="when">Chiều</span><p>Tháp Po Klong Garai (Cham tower) hoặc Làng gốm Bàu Trúc. Mua đặc sản: nho, táo, tỏi Phan Rang.</p></div>
+        <div class="slot"><span class="when">Tối</span><p>Cánh đồng điện gió ngắm hoàng hôn. Lên xe đêm về (ĐN ~19:00, HCM ~22:00).</p></div>
+      </div>
+    </div>
+
+    <div class="travel return-leg">
+      <div class="travel-tag">
+        <div class="icon">🏠</div>
+        <div class="label">Day 04 · Về tới nhà</div>
+        <div class="date">Thứ Hai · 19/5/2026</div>
+      </div>
+      <div class="travel-legs">
+        <div class="leg">
+          <div class="from-to">Cam Ranh → Đà Nẵng</div>
+          <div class="time">~07:00 sáng · tới bến xe ĐN</div>
+        </div>
+        <div class="leg">
+          <div class="from-to">Cam Ranh → HCM</div>
+          <div class="time">~05:00 sáng · tới bến xe Miền Đông</div>
+        </div>
       </div>
     </div>
   </div>
@@ -662,7 +797,7 @@ footer .mono {
       }
     });
   }, { threshold: 0.05, rootMargin: '0px 0px -40px 0px' });
-  const items = document.querySelectorAll('.expect-card, .feature, .why, .day, .budget-card, .compare-table tr, .option-img');
+  const items = document.querySelectorAll('.expect-card, .feature, .why, .day, .budget-card, .compare-table tr, .option-img, .travel');
   items.forEach(el => { el.classList.add('reveal'); observer.observe(el); });
   setTimeout(() => { items.forEach(el => el.classList.add('in')); }, 1500);
 })();

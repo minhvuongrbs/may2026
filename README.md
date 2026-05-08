@@ -41,23 +41,40 @@ Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn n
 
 ### Lịch trình
 
-#### Ngày 1 — Thứ Sáu 16/5 · Tới Quy Nhơn
+#### 🚌 Day 0 — Thứ Năm 15/5 · Xuất phát
 
-- **Sáng** — 2 đoàn tới bến xe Quy Nhơn. Ăn sáng bún chả cá, check-in khách sạn, nghỉ.
-- **Chiều** — Eo Gió, Tịnh Xá Ngọc Hòa. Ngắm hoàng hôn ở Eo Gió.
-- **Tối** — Ăn hải sản đường Xuân Diệu.
+| Đoàn | Thời gian | Lộ trình |
+|---|---|---|
+| Đà Nẵng (4 người) | ~22:00 | ĐN → Quy Nhơn (xe đêm, ~7h) |
+| HCM (2 người) | ~19:00 | HCM → Quy Nhơn (xe đêm, ~11h) |
 
-#### Ngày 2 — Thứ Bảy 17/5 · Kỳ Co — Hòn Khô full day
+#### Day 1 — Thứ Sáu 16/5 · Tới Quy Nhơn — Eo Gió
+
+- **Sáng (5–7h)** — 2 đoàn tới bến xe Quy Nhơn. Ăn sáng bún chả cá. Check-in khách sạn, gửi đồ, nghỉ ngơi.
+- **Trưa** — Tháp Đôi (Cham tower trong thành phố). Ăn trưa bánh hỏi cháo lòng.
+- **Chiều** — Eo Gió, Tịnh Xá Ngọc Hòa (tượng Quan Âm 30m). Ngắm hoàng hôn ở Eo Gió.
+- **Tối** — Đi cầu Thị Nại (cầu vượt biển dài nhất VN). Hải sản đường Xuân Diệu.
+
+#### Day 2 — Thứ Bảy 17/5 · Kỳ Co — Hòn Khô full day
 
 - **Sáng** — Cano ra Kỳ Co. Tắm biển, có thể chơi mô tô nước, dù bay (tự chọn).
 - **Trưa** — Ăn trưa hải sản trên đảo. Ra Bãi Dứa lặn ngắm san hô.
-- **Tối** — Cà phê biển, dạo Quảng trường. Có thể đi karaoke nếu nhóm muốn.
+- **Chiều** — Hòn Khô tiếp tục snorkel / chèo SUP. Về khách sạn nghỉ.
+- **Tối** — Cà phê biển, dạo Quảng trường Quy Nhơn. Karaoke (tùy chọn).
 
-#### Ngày 3 — Chủ Nhật 18/5 · City tour và về
+#### Day 3 — Chủ Nhật 18/5 · City tour Nam và lên xe về
 
-- **Sáng** — Ghềnh Ráng Tiên Sa, mộ Hàn Mặc Tử, bãi Hoàng Hậu, Tháp Đôi.
-- **Trưa** — Ăn bánh xèo tôm nhảy. Mua đặc sản.
-- **Chiều** — 2 đoàn ra bến xe về.
+- **Sáng** — Ghềnh Ráng Tiên Sa, mộ Hàn Mặc Tử, Bãi Trứng (Bãi Đá Trứng), Bãi Hoàng Hậu.
+- **Trưa** — Tháp Bánh Ít (cụm Cham tower đẹp nhất Bình Định). Ăn bánh xèo tôm nhảy.
+- **Chiều** — Đồi cát Phương Mai (chụp ảnh) hoặc spa/cà phê thư giãn. Mua đặc sản: rượu Bàu Đá, bánh tráng, mực một nắng.
+- **Tối** — Lên xe đêm về (ĐN ~20:00, HCM ~17:00).
+
+#### 🏠 Day 4 — Thứ Hai 19/5 · Về tới nhà
+
+| Đoàn | Thời gian tới |
+|---|---|
+| Đà Nẵng | ~03:00 sáng (bến xe ĐN) |
+| HCM | ~04:00 sáng (bến xe Miền Đông) |
 
 ## ② Vĩnh Hy — Bình Hưng
 
@@ -82,23 +99,40 @@ Khu vực ít khách hơn, biển trong, rặng san hô dày. Vịnh Vĩnh Hy đ
 
 ### Lịch trình
 
-#### Ngày 1 — Thứ Sáu 16/5 · Tới Bình Hưng
+#### 🚌 Day 0 — Thứ Năm 15/5 · Xuất phát
 
-- **Sáng** — 2 đoàn tới Cam Ranh. Đi xe ~1.5h ra bến tàu Kênh Hòn Trâu, qua đảo Bình Hưng.
-- **Chiều** — Check-in homestay. Tắm bãi Kinh, dạo bãi Chuối.
-- **Tối** — Hải sản tại bè nổi (tôm hùm, mực nướng).
+| Đoàn | Thời gian | Lộ trình |
+|---|---|---|
+| Đà Nẵng (4 người) | ~18:00 | ĐN → Cam Ranh (xe đêm, ~12h) |
+| HCM (2 người) | ~22:00 | HCM → Cam Ranh (xe đêm, ~7h) |
 
-#### Ngày 2 — Thứ Bảy 17/5 · Tour 3 đảo và Vĩnh Hy
+#### Day 1 — Thứ Sáu 16/5 · Tới Bình Hưng
 
-- **Sáng** — Cano 3 đảo: Bình Hưng — Bình Tiên — Hòn Chút. Lặn ngắm san hô, snorkel.
+- **Sáng (5–7h)** — 2 đoàn tới Cam Ranh. Ăn sáng. Đi xe ~1.5h ra bến tàu Kênh Hòn Trâu, qua đảo Bình Hưng. Check-in homestay.
+- **Trưa** — Ăn trưa hải sản trên đảo. Nghỉ trưa.
+- **Chiều** — Tắm bãi Kinh, dạo bãi Chuối. Chèo SUP / kayak (tùy chọn). Ngắm hoàng hôn trên đảo.
+- **Tối** — Hải sản tại bè nổi (tôm hùm, mực nướng). BBQ trên đảo.
+
+#### Day 2 — Thứ Bảy 17/5 · Tour 3 đảo và Vĩnh Hy
+
+- **Sáng** — Cano 3 đảo: Bình Hưng — Bình Tiên — Hòn Chút. Lặn ngắm san hô, snorkel, câu cá.
 - **Trưa** — Ăn trưa hải sản trên đảo. Về Bình Hưng nghỉ.
-- **Chiều** — Sang Vĩnh Hy, đi tàu đáy kính. Tối ăn ở nhà nổi Vĩnh Hy.
+- **Chiều** — Sang Vĩnh Hy, đi tàu đáy kính ngắm san hô. Cảnh Hang Rái nếu kịp.
+- **Tối** — Ăn ở nhà nổi Vĩnh Hy.
 
-#### Ngày 3 — Chủ Nhật 18/5 · VQG Núi Chúa và về
+#### Day 3 — Chủ Nhật 18/5 · Núi Chúa — Phan Rang và lên xe về
 
 - **Sáng** — Hang Rái, đường ven biển VQG Núi Chúa, view Vĩnh Hy trên cao.
-- **Trưa** — Ăn trưa, mua đặc sản. Về Cam Ranh.
-- **Chiều** — Bắt xe về 2 đầu.
+- **Trưa** — Đồng cừu An Hòa (chụp ảnh) hoặc Vườn nho Thái An (thử rượu vang). Ăn trưa Phan Rang.
+- **Chiều** — Tháp Po Klong Garai (Cham tower) hoặc Làng gốm Bàu Trúc. Mua đặc sản: nho, táo, tỏi Phan Rang.
+- **Tối** — Cánh đồng điện gió ngắm hoàng hôn. Lên xe đêm về (ĐN ~19:00, HCM ~22:00).
+
+#### 🏠 Day 4 — Thứ Hai 19/5 · Về tới nhà
+
+| Đoàn | Thời gian tới |
+|---|---|
+| Đà Nẵng | ~07:00 sáng (bến xe ĐN) |
+| HCM | ~05:00 sáng (bến xe Miền Đông) |
 
 ## Bảng đối chiếu
 
