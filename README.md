@@ -41,40 +41,51 @@ Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn n
 
 ### Lịch trình
 
-#### 🚌 Day 0 — Thứ Năm 15/5 · Xuất phát
+#### 🚌 Day 0 — Thứ Sáu 15/5 · Xuất phát
 
 | Đoàn | Thời gian | Lộ trình |
 |---|---|---|
 | Đà Nẵng (4 người) | ~22:00 | ĐN → Quy Nhơn (xe đêm, ~7h) |
 | HCM (2 người) | ~19:00 | HCM → Quy Nhơn (xe đêm, ~11h) |
 
-#### Day 1 — Thứ Sáu 16/5 · Tới Quy Nhơn — Eo Gió
+#### Day 1 — Thứ Bảy 16/5 · Arrival + chill ⭐
 
-- **Sáng (5–7h)** — Tới bến xe QN. Ăn sáng bún chả cá Bà Phượng. Check-in KS, gửi đồ, nghỉ tắm rửa.
-- **Trưa** — Tháp Đôi (Cham tower trong TP), Tháp Bánh Ít (cụm tháp Cham đẹp nhất Bình Định, ~15km). Ăn trưa bánh hỏi cháo lòng Diêu Trì.
-- **Chiều** — Eo Gió (con đường ven biển), Tịnh Xá Ngọc Hòa (Quan Âm 30m), Kỳ Co viewpoint từ trên. Hoàng hôn ở Eo Gió.
-- **Tối** — Đi cầu Thị Nại (cầu vượt biển dài nhất VN). Hải sản đường Xuân Diệu (Cô Sáu / Hương Việt). Bia hơi.
+- **5h–9h** — Đến QN, ăn sáng bún chả cá Cô Hạnh / Bà Phượng. Check-in KS, tắm rửa, chợp mắt 1–2h.
+- **10h–12h** — Tháp Bánh Ít (~15km, đẹp hơn Tháp Đôi).
+- **12h30** — Bánh hỏi cháo lòng Diêu Trì.
+- **14h–17h** — Eo Gió → Tịnh Xá Ngọc Hòa → sunset Eo Gió.
+- **18h30** — Hải sản Xuân Diệu (Cô Sáu / Hương Việt), bia hơi.
+- **21h** — Cầu Thị Nại buổi tối, về sớm ngủ.
 
-#### Day 2 — Thứ Bảy 17/5 · Kỳ Co — Hòn Khô full day
+#### Day 2 — Chủ Nhật 17/5 · Main biển ⭐⭐
 
-- **Sáng (sớm 6h)** — Cano ra Kỳ Co. Tắm biển, snorkel. Mô tô nước, dù bay (tự chọn).
-- **Trưa** — Ăn trưa hải sản trên đảo. Ra Bãi Dứa lặn ngắm san hô.
-- **Chiều** — Hòn Khô tiếp tục snorkel, chèo SUP / kayak. Về KS nghỉ.
-- **Tối** — Cà phê biển (Surf Bar / Sky Bar). Quảng trường QN, dạo bộ. Karaoke (tùy chọn). Nem nướng Cô Tâm.
+- **6h30** — Ăn sáng nhanh.
+- **7h30** — Khởi hành Nhơn Lý.
+- **8h–12h** — Kỳ Co — tắm, snorkel Bãi Dứa, mô tô nước.
+- **12h** — Lunch hải sản trên đảo.
+- **13h30–16h** — Hòn Khô — snorkel san hô, SUP / kayak.
+- **17h** — Về KS nghỉ.
+- **19h** — Lẩu / nướng hoặc nem nướng Cô Tâm.
+- **21h** — Surf Bar beer + cát, hoặc karaoke.
 
-#### Day 3 — Chủ Nhật 18/5 · City tour Nam và lên xe về
+#### Day 3 — Thứ Hai 18/5 · Cụm Nam và lên xe về
 
-- **Sáng (sớm)** — Ghềnh Ráng Tiên Sa, mộ Hàn Mặc Tử, Bãi Trứng (đá tròn), Bãi Hoàng Hậu.
-- **Trưa** — Bánh xèo tôm nhảy. Đầm Thị Nại (cầu vượt + đầm phá) hoặc bổ sung Tháp Bánh Ít nếu chưa kịp Day 1.
-- **Chiều** — Đồi cát Phương Mai (chụp ảnh, trượt cát) hoặc spa/cà phê thư giãn. Mua đặc sản: rượu Bàu Đá, mực một nắng, bánh tráng nước dừa.
-- **Tối** — Ăn tối cuối. Lên xe đêm về (ĐN ~20:00, HCM ~17:00).
+- **7h** — Bún cá Ngọc Liên.
+- **8h–11h** — Ghềnh Ráng → mộ Hàn Mặc Tử → Bãi Trứng → Bãi Hoàng Hậu.
+- **12h** — Bánh xèo tôm nhảy Mỹ Cảnh / Gia Vỹ.
+- **13h30–15h** — Trả phòng, gửi vali.
+- **15h–17h30** — Bãi Xếp chill cafe view biển.
+- **18h** — Mua đặc sản (rượu Bàu Đá, mực một nắng, bánh ít, bánh tráng nước dừa).
+- **19h** — Bữa cuối — cơm gà QN hoặc nem chả Chợ Huyện.
+- **21h–22h** — Cafe biển cuối, ra bến xe.
+- **22h–23h** — Lên xe đêm về.
 
-#### 🏠 Day 4 — Thứ Hai 19/5 · Về tới nhà
+#### 🏠 Day 4 — Thứ Ba 19/5 · Về tới nhà
 
 | Đoàn | Thời gian tới |
 |---|---|
-| Đà Nẵng | ~03:00 sáng (bến xe ĐN) |
-| HCM | ~04:00 sáng (bến xe Miền Đông) |
+| Đà Nẵng | ~5h sáng (bến xe ĐN) |
+| HCM | ~9–10h sáng (bến xe Miền Đông) |
 
 ## ② Phú Yên
 
@@ -103,40 +114,54 @@ Cảnh độc đáo, photogenic, ít đông hơn Quy Nhơn. Đặc sản cá ng�
 
 ### Lịch trình
 
-#### 🚌 Day 0 — Thứ Năm 15/5 · Xuất phát
+#### 🚌 Day 0 — Thứ Sáu 15/5 · Xuất phát
 
 | Đoàn | Thời gian | Lộ trình |
 |---|---|---|
 | Đà Nẵng (4 người) | ~20:00 | ĐN → Tuy Hòa (xe đêm, ~10h) |
 | HCM (2 người) | ~21:00 | HCM → Tuy Hòa (xe đêm, ~10h) |
 
-#### Day 1 — Thứ Sáu 16/5 · Tới Tuy Hòa — phim trường Hoa Vàng Cỏ Xanh
+#### Day 1 — Thứ Bảy 16/5 · Arrival + Bãi Xép ⭐
 
-- **Sáng (5–7h)** — Tới bến xe Tuy Hòa. Ăn sáng bánh hỏi lòng heo Phú Lương. Check-in KS, tắm rửa, nghỉ.
-- **Trưa** — Tháp Nhạn (Cham tower trên núi, view toàn TP). Ăn trưa cá ngừ đại dương ăn sống wasabi.
-- **Chiều** — Bãi Xép (phim trường "Hoa vàng cỏ xanh"), Gành Ông kế bên. Tắm biển. Ngắm hoàng hôn.
-- **Tối** — Chợ đêm Tuy Hòa. Hải sản đường Hùng Vương. Bánh canh hẹ. Cà phê biển.
+- **6h–9h** — Đến Tuy Hòa, ăn sáng bánh hỏi lòng heo Phú Lương. Check-in KS, tắm rửa, chợp mắt 1–2h.
+- **10h–11h30** — Tháp Nhạn (Cham tower trên núi, view toàn TP).
+- **12h** — Cá ngừ đại dương ăn sống wasabi (Bà Tám / Cô Năm).
+- **14h–17h** — Bãi Xép (phim trường "Hoa vàng cỏ xanh") → Gành Ông → tắm biển → sunset Bãi Xép.
+- **18h30** — Hải sản đường Hùng Vương + chợ đêm Tuy Hòa, bánh canh hẹ.
+- **21h** — Cà phê biển Tuy Hòa, về sớm ngủ.
 
-#### Day 2 — Thứ Bảy 17/5 · Bắc Phú Yên — Gành Đá Đĩa, Ô Loan, Hòn Yến
+#### Day 2 — Chủ Nhật 17/5 · Main bắc PY ⭐⭐
 
-- **Sáng (sớm 6h)** — Đi xe ra bắc PY. Gành Đá Đĩa (basalt 6 cạnh). Nhà thờ Mằng Lăng (cổ nhất, lưu sách quốc ngữ đầu tiên).
-- **Trưa** — Đầm Ô Loan. Ăn sò huyết Ô Loan, hàu nướng, cá đầm. Nghỉ trưa nhà nổi.
-- **Chiều** — Hòn Yến (lặn ngắm san hô khi triều xuống ~14–17h). Tắm biển Hòn Yến.
-- **Tối** — Về Tuy Hòa. Mắt cá ngừ đại dương quán Bà Tám / Trung Mượn. Cà phê.
+- **6h** — Ăn sáng nhanh, mang đồ.
+- **7h** — Khởi hành ra bắc Phú Yên (~50km, ~1h30).
+- **8h30–10h30** — Gành Đá Đĩa (basalt 6 cạnh, di sản địa chất).
+- **11h–12h** — Nhà thờ Mằng Lăng (cổ nhất, lưu sách quốc ngữ đầu tiên).
+- **12h30** — Đầm Ô Loan — sò huyết Ô Loan, hàu nướng (nhà hàng nổi).
+- **14h–16h** — Hòn Yến — snorkel khi triều xuống, tắm biển.
+- **17h** — Về Tuy Hòa, nghỉ.
+- **19h** — Mắt cá ngừ đại dương quán Bà Tám / Trung Mượn.
+- **21h** — Cà phê / dạo biển.
 
-#### Day 3 — Chủ Nhật 18/5 · Mũi Điện — Vũng Rô và lên xe về
+#### Day 3 — Thứ Hai 18/5 · Cực Đông và lên xe về
 
-- **Sáng (sớm 4–5h)** — Mũi Điện đón bình minh (cực Đông VN, sớm nhất cả nước). Hải đăng. Bãi Môn (cát trắng).
-- **Trưa** — Vịnh Vũng Rô (di tích tàu không số). Ăn hải sản tại bè nổi Vũng Rô.
-- **Chiều** — Bãi Tiên / Hòn Nưa (nếu kịp). Mua đặc sản: cá ngừ khô, mắm cá cơm, bánh ít lá gai, nem chua Hòa Đa. Spa thư giãn.
-- **Tối** — Ăn tối, lên xe đêm về (ĐN ~20:00, HCM ~21:00).
+- **4h** — Khởi hành sớm đi Mũi Điện (cách TH ~35km).
+- **5h–7h** — Mũi Điện đón bình minh (cực Đông VN, sớm nhất cả nước), hải đăng, Bãi Môn.
+- **7h30** — Ăn sáng tại quán gần Mũi Điện hoặc Vũng Rô.
+- **9h–11h** — Vịnh Vũng Rô (di tích tàu không số), bè nổi.
+- **11h30–13h** — Lunch hải sản tại bè Vũng Rô.
+- **14h–15h30** — Trả phòng KS, gửi vali.
+- **15h30–17h30** — Bãi biển Long Thủy / Tuy Hòa city chill cafe view biển.
+- **18h** — Mua đặc sản (cá ngừ khô, mắm cá cơm, bánh ít lá gai, nem chua Hòa Đa).
+- **19h** — Bữa cuối — bánh canh hẹ / cơm gà Tuy Hòa.
+- **21h** — Cafe biển cuối, ra bến xe.
+- **21h–22h** — Lên xe đêm về.
 
-#### 🏠 Day 4 — Thứ Hai 19/5 · Về tới nhà
+#### 🏠 Day 4 — Thứ Ba 19/5 · Về tới nhà
 
 | Đoàn | Thời gian tới |
 |---|---|
-| Đà Nẵng | ~06:00 sáng (bến xe ĐN) |
-| HCM | ~06:00 sáng (bến xe Miền Đông) |
+| Đà Nẵng | ~7h sáng (bến xe ĐN) |
+| HCM | ~7h sáng (bến xe Miền Đông) |
 
 ## Bảng đối chiếu
 
