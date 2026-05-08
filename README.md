@@ -9,7 +9,7 @@
 |---|---|
 | **Ngày** | 16–18/5/2026 (3 ngày · 2 đêm) |
 | **Người** | 6 (4 Đà Nẵng + 2 HCM) |
-| **Phương án** | 2 (Quy Nhơn / Vĩnh Hy–Bình Hưng) |
+| **Phương án** | 2 (Quy Nhơn / Phú Yên) |
 | **Ngân sách / người** | ~3.0–4.2 triệu VND |
 
 ## Mục tiêu chuyến đi
@@ -50,24 +50,24 @@ Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn n
 
 #### Day 1 — Thứ Sáu 16/5 · Tới Quy Nhơn — Eo Gió
 
-- **Sáng (5–7h)** — 2 đoàn tới bến xe Quy Nhơn. Ăn sáng bún chả cá. Check-in khách sạn, gửi đồ, nghỉ ngơi.
-- **Trưa** — Tháp Đôi (Cham tower trong thành phố). Ăn trưa bánh hỏi cháo lòng.
-- **Chiều** — Eo Gió, Tịnh Xá Ngọc Hòa (tượng Quan Âm 30m). Ngắm hoàng hôn ở Eo Gió.
-- **Tối** — Đi cầu Thị Nại (cầu vượt biển dài nhất VN). Hải sản đường Xuân Diệu.
+- **Sáng (5–7h)** — Tới bến xe QN. Ăn sáng bún chả cá Bà Phượng. Check-in KS, gửi đồ, nghỉ tắm rửa.
+- **Trưa** — Tháp Đôi (Cham tower trong TP), Tháp Bánh Ít (cụm tháp Cham đẹp nhất Bình Định, ~15km). Ăn trưa bánh hỏi cháo lòng Diêu Trì.
+- **Chiều** — Eo Gió (con đường ven biển), Tịnh Xá Ngọc Hòa (Quan Âm 30m), Kỳ Co viewpoint từ trên. Hoàng hôn ở Eo Gió.
+- **Tối** — Đi cầu Thị Nại (cầu vượt biển dài nhất VN). Hải sản đường Xuân Diệu (Cô Sáu / Hương Việt). Bia hơi.
 
 #### Day 2 — Thứ Bảy 17/5 · Kỳ Co — Hòn Khô full day
 
-- **Sáng** — Cano ra Kỳ Co. Tắm biển, có thể chơi mô tô nước, dù bay (tự chọn).
+- **Sáng (sớm 6h)** — Cano ra Kỳ Co. Tắm biển, snorkel. Mô tô nước, dù bay (tự chọn).
 - **Trưa** — Ăn trưa hải sản trên đảo. Ra Bãi Dứa lặn ngắm san hô.
-- **Chiều** — Hòn Khô tiếp tục snorkel / chèo SUP. Về khách sạn nghỉ.
-- **Tối** — Cà phê biển, dạo Quảng trường Quy Nhơn. Karaoke (tùy chọn).
+- **Chiều** — Hòn Khô tiếp tục snorkel, chèo SUP / kayak. Về KS nghỉ.
+- **Tối** — Cà phê biển (Surf Bar / Sky Bar). Quảng trường QN, dạo bộ. Karaoke (tùy chọn). Nem nướng Cô Tâm.
 
 #### Day 3 — Chủ Nhật 18/5 · City tour Nam và lên xe về
 
-- **Sáng** — Ghềnh Ráng Tiên Sa, mộ Hàn Mặc Tử, Bãi Trứng (Bãi Đá Trứng), Bãi Hoàng Hậu.
-- **Trưa** — Tháp Bánh Ít (cụm Cham tower đẹp nhất Bình Định). Ăn bánh xèo tôm nhảy.
-- **Chiều** — Đồi cát Phương Mai (chụp ảnh) hoặc spa/cà phê thư giãn. Mua đặc sản: rượu Bàu Đá, bánh tráng, mực một nắng.
-- **Tối** — Lên xe đêm về (ĐN ~20:00, HCM ~17:00).
+- **Sáng (sớm)** — Ghềnh Ráng Tiên Sa, mộ Hàn Mặc Tử, Bãi Trứng (đá tròn), Bãi Hoàng Hậu.
+- **Trưa** — Bánh xèo tôm nhảy. Đầm Thị Nại (cầu vượt + đầm phá) hoặc bổ sung Tháp Bánh Ít nếu chưa kịp Day 1.
+- **Chiều** — Đồi cát Phương Mai (chụp ảnh, trượt cát) hoặc spa/cà phê thư giãn. Mua đặc sản: rượu Bàu Đá, mực một nắng, bánh tráng nước dừa.
+- **Tối** — Ăn tối cuối. Lên xe đêm về (ĐN ~20:00, HCM ~17:00).
 
 #### 🏠 Day 4 — Thứ Hai 19/5 · Về tới nhà
 
@@ -76,26 +76,30 @@ Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn n
 | Đà Nẵng | ~03:00 sáng (bến xe ĐN) |
 | HCM | ~04:00 sáng (bến xe Miền Đông) |
 
-## ② Vĩnh Hy — Bình Hưng
+## ② Phú Yên
 
-**Ninh Thuận / Khánh Hòa · ĐN ~12h xe · HCM ~7h xe · ~3.5M VND/người**
+**Tuy Hòa, Phú Yên · ĐN ~10h xe · HCM ~10h xe · ~3.0M VND/người**
 
 ### Điểm nổi bật
 
-| 🌊 Hoang sơ | 🐠 San hô tốt | 🦞 Tôm hùm Bình Ba |
+| 🪨 Gành Đá Đĩa | 🌅 Bãi Xép · Mũi Điện | 🐟 Cá ngừ đại dương |
 |---|---|---|
-| Khu vực ít khách, biển trong, không gian yên tĩnh. | Rặng san hô dày, đa dạng, lý tưởng để snorkel. | Hải sản đặc sản, mực một nắng, bè nổi Vĩnh Hy. |
+| Cột đá basalt 6 cạnh, di sản địa chất độc đáo của VN. | Phim trường "Hoa vàng cỏ xanh" + cực Đông đón bình minh. | Đặc sản Tuy Hòa — mắt cá ngừ, sò huyết Ô Loan. |
 
-### Vì sao chọn Vĩnh Hy — Bình Hưng
+### Vì sao chọn Phú Yên
 
-Khu vực ít khách hơn, biển trong, rặng san hô dày. Vịnh Vĩnh Hy được xếp là một trong các vịnh đẹp ở VN. Đoàn HCM tới gần hơn (~7h xe). Đoàn ĐN xa hơn nên cần đi xe đêm. Phù hợp nếu nhóm thích yên tĩnh hơn là đông vui.
+Phú Yên có Gành Đá Đĩa — cụm cột đá basalt 6 cạnh duy nhất ở VN, di sản địa chất quốc gia. Bãi Xép là phim trường "Tôi thấy hoa vàng trên cỏ xanh", cảnh đẹp như tranh. Mũi Điện là cực Đông VN, đón bình minh sớm nhất cả nước.
+
+Cảnh độc đáo, photogenic, ít đông hơn Quy Nhơn. Đặc sản cá ngừ đại dương + sò huyết Ô Loan rất riêng. Phù hợp nhóm thích trải nghiệm khác lạ.
 
 ### Điểm chính
 
-- **Vịnh Vĩnh Hy** — đi tàu đáy kính ngắm san hô
-- **Đảo Bình Hưng** — bãi Kinh, bãi Chuối, lặn ngắm san hô
-- **Hang Rái — VQG Núi Chúa** — địa chất độc đáo, đường ven biển
-- **Ăn:** tôm hùm Bình Ba, mực một nắng, hải sản tại bè nổi
+- **Gành Đá Đĩa** — cột đá basalt 6 cạnh, di sản địa chất quốc gia
+- **Bãi Xép** — phim trường "Tôi thấy hoa vàng trên cỏ xanh"
+- **Mũi Điện (Cape Đại Lãnh)** — cực Đông VN, đón bình minh sớm nhất
+- **Đầm Ô Loan + Hòn Yến** — sò huyết, lặn ngắm san hô khi triều xuống
+- **Tháp Nhạn + Nhà thờ Mằng Lăng** — Cham tower + nhà thờ cổ lưu sách quốc ngữ đầu tiên
+- **Ăn:** cá ngừ đại dương, mắt cá ngừ, sò huyết Ô Loan, bánh hỏi lòng heo, bánh canh hẹ
 
 ### Lịch trình
 
@@ -103,51 +107,52 @@ Khu vực ít khách hơn, biển trong, rặng san hô dày. Vịnh Vĩnh Hy đ
 
 | Đoàn | Thời gian | Lộ trình |
 |---|---|---|
-| Đà Nẵng (4 người) | ~18:00 | ĐN → Cam Ranh (xe đêm, ~12h) |
-| HCM (2 người) | ~22:00 | HCM → Cam Ranh (xe đêm, ~7h) |
+| Đà Nẵng (4 người) | ~20:00 | ĐN → Tuy Hòa (xe đêm, ~10h) |
+| HCM (2 người) | ~21:00 | HCM → Tuy Hòa (xe đêm, ~10h) |
 
-#### Day 1 — Thứ Sáu 16/5 · Tới Bình Hưng
+#### Day 1 — Thứ Sáu 16/5 · Tới Tuy Hòa — phim trường Hoa Vàng Cỏ Xanh
 
-- **Sáng (5–7h)** — 2 đoàn tới Cam Ranh. Ăn sáng. Đi xe ~1.5h ra bến tàu Kênh Hòn Trâu, qua đảo Bình Hưng. Check-in homestay.
-- **Trưa** — Ăn trưa hải sản trên đảo. Nghỉ trưa.
-- **Chiều** — Tắm bãi Kinh, dạo bãi Chuối. Chèo SUP / kayak (tùy chọn). Ngắm hoàng hôn trên đảo.
-- **Tối** — Hải sản tại bè nổi (tôm hùm, mực nướng). BBQ trên đảo.
+- **Sáng (5–7h)** — Tới bến xe Tuy Hòa. Ăn sáng bánh hỏi lòng heo Phú Lương. Check-in KS, tắm rửa, nghỉ.
+- **Trưa** — Tháp Nhạn (Cham tower trên núi, view toàn TP). Ăn trưa cá ngừ đại dương ăn sống wasabi.
+- **Chiều** — Bãi Xép (phim trường "Hoa vàng cỏ xanh"), Gành Ông kế bên. Tắm biển. Ngắm hoàng hôn.
+- **Tối** — Chợ đêm Tuy Hòa. Hải sản đường Hùng Vương. Bánh canh hẹ. Cà phê biển.
 
-#### Day 2 — Thứ Bảy 17/5 · Tour 3 đảo và Vĩnh Hy
+#### Day 2 — Thứ Bảy 17/5 · Bắc Phú Yên — Gành Đá Đĩa, Ô Loan, Hòn Yến
 
-- **Sáng** — Cano 3 đảo: Bình Hưng — Bình Tiên — Hòn Chút. Lặn ngắm san hô, snorkel, câu cá.
-- **Trưa** — Ăn trưa hải sản trên đảo. Về Bình Hưng nghỉ.
-- **Chiều** — Sang Vĩnh Hy, đi tàu đáy kính ngắm san hô. Cảnh Hang Rái nếu kịp.
-- **Tối** — Ăn ở nhà nổi Vĩnh Hy.
+- **Sáng (sớm 6h)** — Đi xe ra bắc PY. Gành Đá Đĩa (basalt 6 cạnh). Nhà thờ Mằng Lăng (cổ nhất, lưu sách quốc ngữ đầu tiên).
+- **Trưa** — Đầm Ô Loan. Ăn sò huyết Ô Loan, hàu nướng, cá đầm. Nghỉ trưa nhà nổi.
+- **Chiều** — Hòn Yến (lặn ngắm san hô khi triều xuống ~14–17h). Tắm biển Hòn Yến.
+- **Tối** — Về Tuy Hòa. Mắt cá ngừ đại dương quán Bà Tám / Trung Mượn. Cà phê.
 
-#### Day 3 — Chủ Nhật 18/5 · Núi Chúa — Phan Rang và lên xe về
+#### Day 3 — Chủ Nhật 18/5 · Mũi Điện — Vũng Rô và lên xe về
 
-- **Sáng** — Hang Rái, đường ven biển VQG Núi Chúa, view Vĩnh Hy trên cao.
-- **Trưa** — Đồng cừu An Hòa (chụp ảnh) hoặc Vườn nho Thái An (thử rượu vang). Ăn trưa Phan Rang.
-- **Chiều** — Tháp Po Klong Garai (Cham tower) hoặc Làng gốm Bàu Trúc. Mua đặc sản: nho, táo, tỏi Phan Rang.
-- **Tối** — Cánh đồng điện gió ngắm hoàng hôn. Lên xe đêm về (ĐN ~19:00, HCM ~22:00).
+- **Sáng (sớm 4–5h)** — Mũi Điện đón bình minh (cực Đông VN, sớm nhất cả nước). Hải đăng. Bãi Môn (cát trắng).
+- **Trưa** — Vịnh Vũng Rô (di tích tàu không số). Ăn hải sản tại bè nổi Vũng Rô.
+- **Chiều** — Bãi Tiên / Hòn Nưa (nếu kịp). Mua đặc sản: cá ngừ khô, mắm cá cơm, bánh ít lá gai, nem chua Hòa Đa. Spa thư giãn.
+- **Tối** — Ăn tối, lên xe đêm về (ĐN ~20:00, HCM ~21:00).
 
 #### 🏠 Day 4 — Thứ Hai 19/5 · Về tới nhà
 
 | Đoàn | Thời gian tới |
 |---|---|
-| Đà Nẵng | ~07:00 sáng (bến xe ĐN) |
-| HCM | ~05:00 sáng (bến xe Miền Đông) |
+| Đà Nẵng | ~06:00 sáng (bến xe ĐN) |
+| HCM | ~06:00 sáng (bến xe Miền Đông) |
 
 ## Bảng đối chiếu
 
 Tổng hợp các tiêu chí. **Quy Nhơn** được đánh dấu là lựa chọn cân bằng hơn cho nhóm 6 người do dễ di chuyển, nhiều lựa chọn lưu trú, ngân sách hợp lý hơn.
 
-| Tiêu chí | ① Quy Nhơn ⭐ | ② Vĩnh Hy — Bình Hưng |
+| Tiêu chí | ① Quy Nhơn ⭐ | ② Phú Yên |
 |---|---|---|
-| Đặc điểm | **Biển đẹp, đông vui, tiện** | Hoang sơ, yên tĩnh |
-| Di chuyển ĐN (4 người) | **~7h xe đêm** | ~12h xe đêm |
-| Di chuyển HCM (2 người) | ~11h xe đêm | **~7h xe đêm** |
-| Biển và san hô | Kỳ Co, Hòn Khô — đẹp, dễ tổ chức | **San hô tốt hơn, ít người hơn** |
-| Hải sản | **Đa dạng, rẻ, dễ tìm quán** | Tôm hùm xịn, ít option hơn |
-| Lưu trú | **Nhiều khách sạn 3-4 sao** | Chủ yếu là homestay |
-| Phù hợp | **Nhóm muốn cân bằng vui và chill** | Nhóm thích yên tĩnh, hoang sơ |
-| Ngân sách / người | **~3.0 – 3.7 triệu** | ~3.4 – 4.2 triệu |
+| Đặc điểm | **Biển đẹp, đông vui, tiện** | Cảnh độc đáo, phim trường |
+| Di chuyển ĐN (4 người) | **~7h xe đêm** | ~10h xe đêm |
+| Di chuyển HCM (2 người) | ~11h xe đêm | **~10h xe đêm** |
+| Biển và san hô | Kỳ Co, Hòn Khô — đẹp, dễ tổ chức | Hòn Yến, Bãi Xép — đẹp khi triều xuống |
+| Hải sản | **Đa dạng, rẻ, dễ tìm quán** | Cá ngừ đại dương, sò huyết Ô Loan |
+| Lưu trú | **Nhiều khách sạn 3-4 sao** | KS 3 sao Tuy Hòa, ít option hơn QN |
+| Trải nghiệm nhóm | **Đa số nhóm (4 ĐN) gần hơn — chưa ai đi** | 2 thành viên đã từng đi Phú Yên |
+| Phù hợp | **Nhóm muốn cân bằng vui và chill** | Nhóm thích cảnh độc đáo, photogenic |
+| Ngân sách / người | ~3.0 – 3.7 triệu | ~3.0 – 3.7 triệu |
 
 ## Chi tiết ngân sách
 
@@ -165,17 +170,17 @@ Tổng hợp các tiêu chí. **Quy Nhơn** được đánh dấu là lựa ch�
 | Vé tham quan và lặt vặt | 200 – 300k |
 | **Tổng / người** | **~3.0 – 3.7M** |
 
-### ② Vĩnh Hy — Bình Hưng — 3N2Đ · Xe khách · Tự túc
+### ② Phú Yên — 3N2Đ · Xe khách · Tự túc
 
 | Hạng mục | Chi phí |
 |---|---|
-| Xe khách khứ hồi (ĐN/HCM) | 600 – 1.000k |
-| Homestay 2 đêm (3 phòng) | ~400k |
-| Tour 3 đảo cano + lặn | 500 – 700k |
-| Tàu Vĩnh Hy đáy kính + xe đảo | 300 – 400k |
-| Ăn uống 8 bữa | 800 – 1.100k |
+| Xe khách khứ hồi (ĐN/HCM) | 600 – 900k |
+| KS 2 đêm (3 sao Tuy Hòa, 3 phòng đôi) | ~470k |
+| Tour Gành Đá Đĩa - Mũi Điện - Hòn Yến | 500 – 700k |
+| Thuê xe 16 chỗ 2 ngày (chia 6) | 300 – 400k |
+| Ăn uống 8 bữa | 700 – 900k |
 | Vé tham quan và lặt vặt | 200 – 300k |
-| **Tổng / người** | **~3.4 – 4.2M** |
+| **Tổng / người** | **~3.0 – 3.7M** |
 
 ---
 
