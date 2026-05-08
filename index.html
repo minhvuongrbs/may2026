@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beach Trip 2026 · 6 người, 3 ngày</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,400..900&family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --sand: #f5ebd8;
+  --sand-deep: #ecdcb8;
+  --coral: #e8553f;
+  --coral-deep: #c4391f;
+  --teal: #0d6e6e;
+  --teal-deep: #074545;
+  --sun: #f6b333;
+  --ink: #1a1410;
+  --ink-soft: #4a3f33;
+  --paper: #faf4e6;
+  --shadow: 0 2px 0 var(--ink), 6px 8px 0 rgba(26,20,16,0.12);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter Tight', sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.55;
+  font-size: 17px;
+  overflow-x: hidden;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 100;
+  opacity: 0.3;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+}
+
+.display { font-family: 'Fraunces', serif; font-weight: 600; font-variation-settings: "opsz" 144, "SOFT" 100; letter-spacing: -0.03em; line-height: 0.95; }
+.mono { font-family: 'JetBrains Mono', monospace; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78em; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+
+.topbar { border-bottom: 2px solid var(--ink); padding: 18px 0; background: var(--sand); position: relative; z-index: 10; }
+.topbar-inner { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+.topbar .mono { font-weight: 500; }
+.dot { display: inline-block; width: 8px; height: 8px; background: var(--coral); border-radius: 50%; margin-right: 8px; }
+
+/* HERO with image */
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(180deg, rgba(26,20,16,0.15) 0%, rgba(26,20,16,0.55) 100%),
+    url('https://images.unsplash.com/photo-1722944175475-6bbc2d6812c6?fm=jpg&q=80&w=2400&auto=format&fit=crop') center/cover no-repeat;
+}
+.hero .wrap {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  position: relative;
+  z-index: 2;
+}
+.hero h1 { font-size: clamp(60px, 10vw, 144px); margin-bottom: 28px; color: var(--paper); text-shadow: 0 2px 20px rgba(0,0,0,0.3); }
+.hero h1 .accent { color: var(--sun); font-style: italic; }
+.hero p.lede { font-size: clamp(18px, 2vw, 22px); max-width: 680px; color: rgba(250,244,230,0.92); font-weight: 400; }
+.hero-meta { color: var(--sun); margin-bottom: 24px; }
+
+/* Snapshot */
+.snapshot { background: var(--ink); color: var(--sand); padding: 60px 0; }
+.snap-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+.snap-item .num { font-family: 'Fraunces', serif; font-size: 56px; font-weight: 400; color: var(--sun); line-height: 1; }
+.snap-item .label { margin-top: 8px; color: var(--sand-deep); font-size: 14px; }
+
+.section { padding: 100px 0 50px; }
+.section-tag { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; color: var(--coral); font-weight: 600; }
+.section-tag::before { content: ''; width: 60px; height: 2px; background: var(--coral); }
+.section h2 { font-size: clamp(36px, 5.5vw, 64px); margin-bottom: 48px; max-width: 900px; }
+
+.goals { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.goal { background: var(--paper); border: 2px solid var(--ink); padding: 28px; border-radius: 4px; box-shadow: var(--shadow); }
+.goal h3 { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; margin-bottom: 8px; }
+.goal p { color: var(--ink-soft); font-size: 15px; }
+
+/* Option section with hero image */
+.option { padding: 0 0 80px; position: relative; }
+.option.opt-1 { background: linear-gradient(180deg, var(--paper) 0%, #fde8d9 100%); }
+.option.opt-2 { background: linear-gradient(180deg, #d9eded 0%, var(--paper) 100%); }
+
+.opt-banner {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+  margin-bottom: 60px;
+  border-bottom: 2px solid var(--ink);
+}
+.opt-banner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(26,20,16,0.1) 0%, rgba(26,20,16,0.6) 100%);
+}
+.opt-banner img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.opt-banner-content {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 40px 0;
+  z-index: 2;
+}
+.opt-banner-content .wrap {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 32px;
+  align-items: end;
+}
+.opt-banner .opt-num {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(80px, 12vw, 160px);
+  font-weight: 300;
+  line-height: 0.85;
+  color: var(--sun);
+}
+.opt-banner h2 {
+  font-size: clamp(40px, 5.5vw, 80px);
+  margin: 0;
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  color: var(--paper);
+}
+.opt-banner .meta {
+  margin-top: 8px;
+  color: rgba(250,244,230,0.85);
+  font-size: 14px;
+}
+.opt-badge {
+  background: var(--paper);
+  color: var(--ink);
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-align: center;
+  min-width: 140px;
+  border: 2px solid var(--ink);
+}
+.opt-badge .price-num { font-family: 'Fraunces', serif; font-size: 32px; font-weight: 600; color: var(--coral); display: block; }
+.opt-2 .opt-badge .price-num { color: var(--teal); }
+.opt-badge .price-label { font-size: 12px; color: var(--ink-soft); }
+
+.why-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: start; margin-bottom: 56px; }
+.why-text h3 { font-family: 'Fraunces', serif; font-size: 26px; margin-bottom: 18px; font-weight: 600; }
+.why-text p { font-size: 16px; color: var(--ink-soft); margin-bottom: 14px; }
+.why-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.tag { display: inline-block; padding: 6px 14px; background: var(--paper); border: 1.5px solid var(--ink); border-radius: 999px; font-size: 13px; font-weight: 500; }
+.tag.coral { background: var(--coral); color: var(--paper); border-color: var(--coral); }
+.tag.teal { background: var(--teal); color: var(--paper); border-color: var(--teal); }
+
+.highlights { background: var(--paper); border: 2px solid var(--ink); border-radius: 4px; padding: 28px; box-shadow: var(--shadow); }
+.highlights h4 { font-family: 'Fraunces', serif; font-size: 20px; margin-bottom: 16px; }
+.highlights ul { list-style: none; }
+.highlights li { padding: 8px 0; border-bottom: 1px dashed rgba(26,20,16,0.2); display: flex; gap: 12px; font-size: 15px; }
+.highlights li:last-child { border-bottom: none; }
+.highlights li::before { content: '◉'; color: var(--coral); font-size: 12px; margin-top: 5px; }
+.opt-2 .highlights li::before { color: var(--teal); }
+
+.itinerary-title { font-family: 'Fraunces', serif; font-size: 30px; margin-bottom: 28px; font-weight: 600; }
+.tickets { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.ticket { background: var(--paper); border: 2px solid var(--ink); border-radius: 4px; overflow: hidden; box-shadow: var(--shadow); position: relative; transition: transform 0.3s ease; }
+.ticket:hover { transform: translateY(-4px); }
+.ticket-head { background: var(--ink); color: var(--sand); padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--sand); position: relative; }
+.ticket-head::before, .ticket-head::after { content: ''; position: absolute; bottom: -10px; width: 18px; height: 18px; background: var(--paper); border-radius: 50%; border: 2px solid var(--ink); }
+.opt-1 .ticket-head::before, .opt-1 .ticket-head::after { background: #fde8d9; }
+.opt-2 .ticket-head::before, .opt-2 .ticket-head::after { background: var(--paper); }
+.ticket-head::before { left: -10px; }
+.ticket-head::after { right: -10px; }
+.ticket-day { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; }
+.ticket-stamp { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.1em; color: var(--sun); }
+.ticket-body { padding: 24px 20px; }
+.ticket-body h4 { font-family: 'Fraunces', serif; font-size: 20px; margin-bottom: 16px; font-weight: 600; line-height: 1.25; }
+.ticket-time { display: flex; gap: 12px; padding: 8px 0; font-size: 14px; border-top: 1px dashed rgba(26,20,16,0.15); }
+.ticket-time:first-of-type { border-top: none; }
+.ticket-time .when { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--coral); font-weight: 600; min-width: 60px; padding-top: 3px; }
+.opt-2 .ticket-time .when { color: var(--teal); }
+
+/* Comparison */
+.compare { background: var(--ink); color: var(--sand); padding: 100px 0; }
+.compare h2 { color: var(--sand); }
+.compare .section-tag { color: var(--sun); }
+.compare .section-tag::before { background: var(--sun); }
+.compare-intro { color: var(--sand-deep); font-size: 16px; margin-bottom: 40px; max-width: 720px; margin-top: -32px; }
+.compare-table { width: 100%; border-collapse: separate; border-spacing: 0; }
+.compare-table th, .compare-table td { padding: 18px 24px; text-align: left; border-bottom: 1px solid rgba(245,235,216,0.15); vertical-align: top; }
+.compare-table thead th { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; color: var(--sun); position: relative; }
+.compare-table thead th .pick-badge {
+  display: inline-block;
+  background: var(--coral);
+  color: var(--paper);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-left: 10px;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+.compare-table th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--sand-deep); letter-spacing: 0.1em; font-weight: 500; width: 22%; }
+.compare-table td { font-size: 15px; line-height: 1.5; }
+.compare-table tr:last-child th, .compare-table tr:last-child td { border-bottom: none; }
+.compare-table .winner { background: rgba(246,179,51,0.08); }
+
+.budget-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 32px; }
+.budget-card { background: var(--paper); border: 2px solid var(--ink); border-radius: 4px; padding: 32px; box-shadow: var(--shadow); }
+.budget-card.opt1 { background: linear-gradient(135deg, #fde8d9 0%, var(--paper) 100%); }
+.budget-card.opt2 { background: linear-gradient(135deg, #d9eded 0%, var(--paper) 100%); }
+.budget-card h3 { font-family: 'Fraunces', serif; font-size: 26px; margin-bottom: 8px; font-weight: 600; }
+.budget-card .sub { font-size: 13px; color: var(--ink-soft); margin-bottom: 20px; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.05em; }
+.budget-row { display: flex; justify-content: space-between; align-items: baseline; padding: 10px 0; border-bottom: 1px dashed rgba(26,20,16,0.2); font-size: 15px; gap: 16px; }
+.budget-row:last-child { border: none; }
+.budget-row.total { margin-top: 12px; padding-top: 16px; border-top: 2px solid var(--ink); border-bottom: none; font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; }
+.budget-row .num { font-family: 'JetBrains Mono', monospace; font-weight: 500; white-space: nowrap; }
+.budget-row.total .num { font-family: 'Fraunces', serif; color: var(--coral); }
+.opt2 .budget-row.total .num { color: var(--teal); }
+
+footer { background: var(--ink); color: var(--sand-deep); padding: 32px 0; font-size: 13px; }
+.foot-grid { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+footer .mono { color: var(--sun); }
+
+@media (max-width: 900px) {
+  .wrap { padding: 0 20px; }
+  .hero { min-height: 70vh; }
+  .snap-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .goals { grid-template-columns: 1fr; }
+  .why-grid { grid-template-columns: 1fr; gap: 32px; }
+  .opt-banner { height: 280px; margin-bottom: 40px; }
+  .opt-banner-content .wrap { grid-template-columns: 1fr; gap: 12px; }
+  .opt-banner .opt-num { font-size: 64px; }
+  .tickets { grid-template-columns: 1fr; }
+  .budget-grid { grid-template-columns: 1fr; }
+  .compare-table th, .compare-table td { padding: 14px 12px; font-size: 14px; }
+  .compare-table th:first-child { font-size: 11px; }
+  .compare-table thead th .pick-badge { display: block; margin: 6px 0 0; }
+}
+
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.reveal.in { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="mono"><span class="dot"></span>Beach Trip · 2026</div>
+    <div class="mono">3N2Đ · 6 người · 4 ĐN + 2 HCM</div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-meta mono">3 ngày · 6 người · 2 phương án</div>
+    <h1 class="display">Đi biển 3 ngày,<br><span class="accent">6 người.</span></h1>
+    <p class="lede">Hai phương án cho chuyến đi biển 3 ngày 2 đêm. Tiêu chí: thư giãn, di chuyển bằng xe khách, ngân sách hợp lý cho cả nhóm.</p>
+  </div>
+</section>
+
+<section class="snapshot">
+  <div class="wrap">
+    <div class="snap-grid">
+      <div class="snap-item"><div class="num">3</div><div class="label">Ngày · 2 đêm</div></div>
+      <div class="snap-item"><div class="num">6</div><div class="label">Người (4 ĐN + 2 HCM)</div></div>
+      <div class="snap-item"><div class="num">2</div><div class="label">Phương án</div></div>
+      <div class="snap-item"><div class="num">~3M</div><div class="label">Ngân sách / người</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-tag mono">Tiêu chí</div>
+    <h2 class="display">Mục tiêu chuyến đi.</h2>
+    <div class="goals">
+      <div class="goal">
+        <h3>Biển là chính</h3>
+        <p>Tắm biển, lặn ngắm san hô, đi cano. Lịch không quá dày.</p>
+      </div>
+      <div class="goal">
+        <h3>Hải sản tốt</h3>
+        <p>Có quán hải sản tươi, đáp ứng được nhóm 6 người.</p>
+      </div>
+      <div class="goal">
+        <h3>Di chuyển hợp lý</h3>
+        <p>Bằng xe khách. Cả 2 đoàn ĐN và HCM đều tới được trong 1 đêm.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="option opt-1">
+  <div class="opt-banner">
+    <img src="https://images.unsplash.com/photo-1560569588-fe52d930d1c5?fm=jpg&q=80&w=2400&auto=format&fit=crop" alt="Quy Nhơn aerial">
+    <div class="opt-banner-content">
+      <div class="wrap">
+        <div class="opt-num display">01</div>
+        <div>
+          <h2>Quy Nhơn</h2>
+          <div class="meta mono">Bình Định · ĐN ~7h xe · HCM ~11h xe</div>
+        </div>
+        <div class="opt-badge">
+          <span class="price-num">~3.0M</span>
+          <span class="price-label mono">VNĐ/người</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-text">
+        <h3>Vì sao chọn Quy Nhơn</h3>
+        <p>Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn ngắm. Hải sản tươi, giá hợp lý, nhiều quán quanh đường Xuân Diệu.</p>
+        <p>Di chuyển thuận tiện cho cả 2 đoàn. Hạ tầng du lịch đủ tốt, dễ tìm khách sạn 3 sao cho nhóm 6 người.</p>
+        <div class="why-tags">
+          <span class="tag coral">Lặn san hô</span>
+          <span class="tag">Cano Kỳ Co</span>
+          <span class="tag">Hải sản Xuân Diệu</span>
+          <span class="tag">Eo Gió</span>
+        </div>
+      </div>
+      <div class="highlights">
+        <h4>Điểm chính</h4>
+        <ul>
+          <li><strong>Kỳ Co + Hòn Khô:</strong> đảo và bãi biển đẹp, có tour cano</li>
+          <li><strong>Eo Gió:</strong> con đường ven biển, ngắm hoàng hôn</li>
+          <li><strong>Tịnh Xá Ngọc Hòa:</strong> tượng Phật Quan Âm đôi cao 30m</li>
+          <li><strong>Ăn:</strong> bún chả cá, bánh xèo tôm nhảy, hải sản đường Xuân Diệu</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="itinerary-title">Lịch trình</h3>
+    <div class="tickets">
+      <div class="ticket">
+        <div class="ticket-head"><span class="ticket-day">Day 01</span><span class="ticket-stamp">Arrival</span></div>
+        <div class="ticket-body">
+          <h4>Tới Quy Nhơn</h4>
+          <div class="ticket-time"><span class="when">Sáng</span><span>2 đoàn tới bến xe Quy Nhơn. Ăn sáng bún chả cá, check-in khách sạn, nghỉ.</span></div>
+          <div class="ticket-time"><span class="when">Chiều</span><span>Eo Gió, Tịnh Xá Ngọc Hòa. Ngắm hoàng hôn ở Eo Gió.</span></div>
+          <div class="ticket-time"><span class="when">Tối</span><span>Ăn hải sản đường Xuân Diệu.</span></div>
+        </div>
+      </div>
+
+      <div class="ticket">
+        <div class="ticket-head"><span class="ticket-day">Day 02</span><span class="ticket-stamp">Main day</span></div>
+        <div class="ticket-body">
+          <h4>Kỳ Co — Hòn Khô full day</h4>
+          <div class="ticket-time"><span class="when">Sáng</span><span>Cano ra Kỳ Co. Tắm biển, có thể chơi mô tô nước, dù bay (tự chọn).</span></div>
+          <div class="ticket-time"><span class="when">Trưa</span><span>Ăn trưa hải sản trên đảo. Ra Bãi Dứa lặn ngắm san hô.</span></div>
+          <div class="ticket-time"><span class="when">Tối</span><span>Cà phê biển, dạo Quảng trường. Có thể đi karaoke nếu nhóm muốn.</span></div>
+        </div>
+      </div>
+
+      <div class="ticket">
+        <div class="ticket-head"><span class="ticket-day">Day 03</span><span class="ticket-stamp">Return</span></div>
+        <div class="ticket-body">
+          <h4>City tour và về</h4>
+          <div class="ticket-time"><span class="when">Sáng</span><span>Ghềnh Ráng Tiên Sa, mộ Hàn Mặc Tử, bãi Hoàng Hậu, Tháp Đôi.</span></div>
+          <div class="ticket-time"><span class="when">Trưa</span><span>Ăn bánh xèo tôm nhảy. Mua đặc sản.</span></div>
+          <div class="ticket-time"><span class="when">Chiều</span><span>2 đoàn ra bến xe về.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="option opt-2">
+  <div class="opt-banner">
+    <img src="https://www.vietnamairlines.com/content/dam/legacy-site-assets/SEO-images/2025%20SEO/Thay%20Anh%20Traffic%20Tieng%20Viet/vinh%20vinh%20hy/vinh-vinh-hy-nhin-tu-tren-cao.png" alt="Vịnh Vĩnh Hy">
+    <div class="opt-banner-content">
+      <div class="wrap">
+        <div class="opt-num display">02</div>
+        <div>
+          <h2>Vĩnh Hy · Bình Hưng</h2>
+          <div class="meta mono">Ninh Thuận / Khánh Hòa · ĐN ~12h xe · HCM ~7h xe</div>
+        </div>
+        <div class="opt-badge">
+          <span class="price-num">~3.5M</span>
+          <span class="price-label mono">VNĐ/người</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-text">
+        <h3>Vì sao chọn Vĩnh Hy — Bình Hưng</h3>
+        <p>Khu vực ít khách hơn, biển trong, rặng san hô dày. Vịnh Vĩnh Hy được xếp là một trong các vịnh đẹp ở VN.</p>
+        <p>Đoàn HCM tới gần hơn (~7h xe). Đoàn ĐN xa hơn nên cần đi xe đêm. Phù hợp nếu nhóm thích yên tĩnh hơn là đông vui.</p>
+        <div class="why-tags">
+          <span class="tag teal">Hoang sơ</span>
+          <span class="tag">San hô tốt</span>
+          <span class="tag">Ít khách</span>
+          <span class="tag">Hang Rái</span>
+        </div>
+      </div>
+      <div class="highlights">
+        <h4>Điểm chính</h4>
+        <ul>
+          <li><strong>Vịnh Vĩnh Hy:</strong> đi tàu đáy kính ngắm san hô</li>
+          <li><strong>Đảo Bình Hưng:</strong> bãi Kinh, bãi Chuối, lặn ngắm san hô</li>
+          <li><strong>Hang Rái — VQG Núi Chúa:</strong> địa chất độc đáo, đường ven biển</li>
+          <li><strong>Ăn:</strong> tôm hùm Bình Ba, mực một nắng, hải sản tại bè nổi</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="itinerary-title">Lịch trình</h3>
+    <div class="tickets">
+      <div class="ticket">
+        <div class="ticket-head"><span class="ticket-day">Day 01</span><span class="ticket-stamp">Arrival</span></div>
+        <div class="ticket-body">
+          <h4>Tới Bình Hưng</h4>
+          <div class="ticket-time"><span class="when">Sáng</span><span>2 đoàn tới Cam Ranh. Đi xe ~1.5h ra bến tàu Kênh Hòn Trâu, qua đảo Bình Hưng.</span></div>
+          <div class="ticket-time"><span class="when">Chiều</span><span>Check-in homestay. Tắm bãi Kinh, dạo bãi Chuối.</span></div>
+          <div class="ticket-time"><span class="when">Tối</span><span>Hải sản tại bè nổi (tôm hùm, mực nướng).</span></div>
+        </div>
+      </div>
+
+      <div class="ticket">
+        <div class="ticket-head"><span class="ticket-day">Day 02</span><span class="ticket-stamp">Main day</span></div>
+        <div class="ticket-body">
+          <h4>Tour 3 đảo và Vĩnh Hy</h4>
+          <div class="ticket-time"><span class="when">Sáng</span><span>Cano 3 đảo: Bình Hưng — Bình Tiên — Hòn Chút. Lặn ngắm san hô, snorkel.</span></div>
+          <div class="ticket-time"><span class="when">Trưa</span><span>Ăn trưa hải sản trên đảo. Về Bình Hưng nghỉ.</span></div>
+          <div class="ticket-time"><span class="when">Chiều</span><span>Sang Vĩnh Hy, đi tàu đáy kính. Tối ăn ở nhà nổi Vĩnh Hy.</span></div>
+        </div>
+      </div>
+
+      <div class="ticket">
+        <div class="ticket-head"><span class="ticket-day">Day 03</span><span class="ticket-stamp">Return</span></div>
+        <div class="ticket-body">
+          <h4>VQG Núi Chúa và về</h4>
+          <div class="ticket-time"><span class="when">Sáng</span><span>Hang Rái, đường ven biển VQG Núi Chúa, view Vĩnh Hy trên cao.</span></div>
+          <div class="ticket-time"><span class="when">Trưa</span><span>Ăn trưa, mua đặc sản. Về Cam Ranh.</span></div>
+          <div class="ticket-time"><span class="when">Chiều</span><span>Bắt xe về 2 đầu.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="compare">
+  <div class="wrap">
+    <div class="section-tag mono">So sánh</div>
+    <h2 class="display">Bảng đối chiếu.</h2>
+    <p class="compare-intro">Tổng hợp các tiêu chí. Quy Nhơn được đánh dấu là lựa chọn cân bằng hơn cho nhóm 6 người do dễ di chuyển, nhiều lựa chọn lưu trú, ngân sách hợp lý hơn.</p>
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>① Quy Nhơn <span class="pick-badge">Đề xuất</span></th>
+          <th>② Vĩnh Hy — Bình Hưng</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Đặc điểm</th>
+          <td class="winner">Biển đẹp, đông vui, tiện</td>
+          <td>Hoang sơ, yên tĩnh</td>
+        </tr>
+        <tr>
+          <th>Di chuyển ĐN (4 người)</th>
+          <td class="winner">~7h xe đêm</td>
+          <td>~12h xe đêm</td>
+        </tr>
+        <tr>
+          <th>Di chuyển HCM (2 người)</th>
+          <td>~11h xe đêm</td>
+          <td class="winner">~7h xe đêm</td>
+        </tr>
+        <tr>
+          <th>Biển và san hô</th>
+          <td>Kỳ Co, Hòn Khô — đẹp, dễ tổ chức</td>
+          <td class="winner">San hô tốt hơn, ít người hơn</td>
+        </tr>
+        <tr>
+          <th>Hải sản</th>
+          <td class="winner">Đa dạng, rẻ, dễ tìm quán</td>
+          <td>Tôm hùm xịn, ít option hơn</td>
+        </tr>
+        <tr>
+          <th>Lưu trú</th>
+          <td class="winner">Nhiều khách sạn 3-4 sao</td>
+          <td>Chủ yếu là homestay</td>
+        </tr>
+        <tr>
+          <th>Phù hợp</th>
+          <td class="winner">Nhóm muốn cân bằng vui và chill</td>
+          <td>Nhóm thích yên tĩnh, hoang sơ</td>
+        </tr>
+        <tr>
+          <th>Ngân sách / người</th>
+          <td class="winner">~3.0 – 3.7 triệu</td>
+          <td>~3.4 – 4.2 triệu</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-tag mono">Ngân sách</div>
+    <h2 class="display">Chi tiết chi phí.</h2>
+    <p style="font-size:16px;color:var(--ink-soft);max-width:680px">Ước tính cho 1 người. Đi nhóm 6 sẽ tiết kiệm hơn vì chia chi phí xe thuê và phòng.</p>
+
+    <div class="budget-grid">
+      <div class="budget-card opt1">
+        <h3>① Quy Nhơn</h3>
+        <div class="sub">3N2Đ · Xe khách · Tự túc</div>
+        <div class="budget-row"><span>Xe khách khứ hồi (ĐN/HCM)</span><span class="num">600 – 900k</span></div>
+        <div class="budget-row"><span>KS 2 đêm (3 sao, 3 phòng đôi)</span><span class="num">~470k</span></div>
+        <div class="budget-row"><span>Tour Kỳ Co - Hòn Khô (cano + ăn trưa)</span><span class="num">600 – 800k</span></div>
+        <div class="budget-row"><span>Thuê xe 16 chỗ 2 ngày (chia 6)</span><span class="num">300 – 400k</span></div>
+        <div class="budget-row"><span>Ăn uống 8 bữa</span><span class="num">700 – 900k</span></div>
+        <div class="budget-row"><span>Vé tham quan và lặt vặt</span><span class="num">200 – 300k</span></div>
+        <div class="budget-row total"><span>Tổng / người</span><span class="num">~3.0 – 3.7M</span></div>
+      </div>
+
+      <div class="budget-card opt2">
+        <h3>② Vĩnh Hy — Bình Hưng</h3>
+        <div class="sub">3N2Đ · Xe khách · Tự túc</div>
+        <div class="budget-row"><span>Xe khách khứ hồi (ĐN/HCM)</span><span class="num">600 – 1.000k</span></div>
+        <div class="budget-row"><span>Homestay 2 đêm (3 phòng)</span><span class="num">~400k</span></div>
+        <div class="budget-row"><span>Tour 3 đảo cano + lặn</span><span class="num">500 – 700k</span></div>
+        <div class="budget-row"><span>Tàu Vĩnh Hy đáy kính + xe đảo</span><span class="num">300 – 400k</span></div>
+        <div class="budget-row"><span>Ăn uống 8 bữa</span><span class="num">800 – 1.100k</span></div>
+        <div class="budget-row"><span>Vé tham quan và lặt vặt</span><span class="num">200 – 300k</span></div>
+        <div class="budget-row total"><span>Tổng / người</span><span class="num">~3.4 – 4.2M</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div class="mono">Beach Trip 2026</div>
+    <div class="mono">v1 · Draft</div>
+  </div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) e.target.classList.add('in');
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll('.goal, .ticket, .budget-card, .opt-banner, .compare-table tr').forEach(el => {
+  el.classList.add('reveal');
+  observer.observe(el);
+});
+</script>
+
+</body>
+</html>
