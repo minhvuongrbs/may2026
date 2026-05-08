@@ -22,11 +22,15 @@
 
 **Bình Định · ĐN ~7h xe · HCM ~11h xe · ~3.0M VND/người**
 
+### Điểm nổi bật
+
+| 🤿 Lặn san hô | 🍤 Hải sản tươi | 🚐 Tiện đi lại |
+|---|---|---|
+| Kỳ Co, Hòn Khô — nước trong, rặng san hô đẹp. | Đường Xuân Diệu, bún chả cá, bánh xèo tôm nhảy. | Hạ tầng tốt, dễ tìm KS 3 sao cho 6 người. |
+
 ### Vì sao chọn Quy Nhơn
 
 Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn ngắm. Hải sản tươi, giá hợp lý, nhiều quán quanh đường Xuân Diệu. Di chuyển thuận tiện cho cả 2 đoàn. Hạ tầng du lịch đủ tốt, dễ tìm khách sạn 3 sao cho nhóm 6.
-
-**Tags:** Lặn san hô · Cano Kỳ Co · Hải sản Xuân Diệu · Eo Gió
 
 ### Điểm chính
 
@@ -59,11 +63,15 @@ Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn n
 
 **Ninh Thuận / Khánh Hòa · ĐN ~12h xe · HCM ~7h xe · ~3.5M VND/người**
 
+### Điểm nổi bật
+
+| 🌊 Hoang sơ | 🐠 San hô tốt | 🦞 Tôm hùm Bình Ba |
+|---|---|---|
+| Khu vực ít khách, biển trong, không gian yên tĩnh. | Rặng san hô dày, đa dạng, lý tưởng để snorkel. | Hải sản đặc sản, mực một nắng, bè nổi Vĩnh Hy. |
+
 ### Vì sao chọn Vĩnh Hy — Bình Hưng
 
 Khu vực ít khách hơn, biển trong, rặng san hô dày. Vịnh Vĩnh Hy được xếp là một trong các vịnh đẹp ở VN. Đoàn HCM tới gần hơn (~7h xe). Đoàn ĐN xa hơn nên cần đi xe đêm. Phù hợp nếu nhóm thích yên tĩnh hơn là đông vui.
-
-**Tags:** Hoang sơ · San hô tốt · Ít khách · Hang Rái
 
 ### Điểm chính
 
