@@ -107,7 +107,7 @@ Tổng hợp các quán đặc sản trong bán kính đi bộ / ~10 phút từ 
 | **Bún cá Ngọc Liên** — 379 Nguyễn Huệ · ~7 phút bộ | **Bánh xèo Gia Vỹ** — Tăng Bạt Hổ | Cua Huỳnh Đế — đặc sản biển QN |
 | **Bún tôm Châu Trúc** — 32 Trần Cao Vân | Bánh hỏi cháo lòng — Diêu Trì (~15km) | Hải sản chợ Đầm — tươi, giá địa phương |
 | Bún rạm Bà Hai — Trần Hưng Đạo | Cơm gà Quy Nhơn — vài quán Trần Phú | |
-| Bún chả cá Cô Hạnh — gần bến xe | **Nem nướng Cô Tâm** — đường Quang Trung | |
+| **Bún chả cá Cô Hạnh** — Xuân Diệu (~700m từ Cá House) · [📍](https://maps.app.goo.gl/B5fNj8a9DU5gXda47) | **Nem nướng Cô Tâm** — đường Quang Trung | |
 
 | ☕ Cafe / chill | 🎁 Đặc sản đem về |
 |---|---|
