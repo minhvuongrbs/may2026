@@ -32,6 +32,16 @@
 
 Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn ngắm. Hải sản tươi, giá hợp lý, nhiều quán quanh đường Xuân Diệu. Di chuyển thuận tiện cho cả 2 đoàn. Hạ tầng du lịch đủ tốt, dễ tìm khách sạn 3 sao cho nhóm 6.
 
+### 🏡 Lưu trú · Cá House (đã chốt)
+
+**17 Phan Bội Châu, Quy Nhơn** — trung tâm Thị Nại
+
+| | |
+|---|---|
+| **Giá** | 1.700.000 VND / 6 người · 2 đêm (~283k/người) |
+| **Nhóm** | 3 nam ĐN + 1 nữ ĐN + 2 nữ HCM (chia 3M + 3F) |
+| **Vị trí** | ~5 phút bộ ra Trần Phú · ~7 phút ra chợ đêm · ~1.5km tới hải sản Xuân Diệu |
+
 ### Điểm chính
 
 - **Kỳ Co + Hòn Khô** — đảo và bãi biển đẹp, có tour cano
@@ -50,7 +60,7 @@ Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn n
 
 #### Day 1 — Thứ Bảy 16/5 · Arrival + chill ⭐
 
-- **5h–9h** — Đến QN, ăn sáng bún chả cá Cô Hạnh / Bà Phượng. Check-in KS, tắm rửa, chợp mắt 1–2h.
+- **5h–9h** — Đến QN, ăn sáng bún chả cá Cô Hạnh / Bà Phượng. Check-in **Cá House (17 Phan Bội Châu)**, tắm rửa, chợp mắt 1–2h.
 - **10h–12h** — Tháp Bánh Ít (~15km, đẹp hơn Tháp Đôi).
 - **12h30** — Bánh hỏi cháo lòng Diêu Trì.
 - **14h–17h** — Eo Gió → Tịnh Xá Ngọc Hòa → sunset Eo Gió.
@@ -64,7 +74,7 @@ Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn n
 - **8h–12h** — Kỳ Co — tắm, snorkel Bãi Dứa, mô tô nước.
 - **12h** — Lunch hải sản trên đảo.
 - **13h30–16h** — Hòn Khô — snorkel san hô, SUP / kayak.
-- **17h** — Về KS nghỉ.
+- **17h** — Về Cá House nghỉ. Tắm rửa, chuẩn bị tối.
 - **19h** — Lẩu / nướng hoặc nem nướng Cô Tâm.
 - **21h** — Surf Bar beer + cát, hoặc karaoke.
 
@@ -73,7 +83,7 @@ Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn n
 - **7h** — Bún cá Ngọc Liên.
 - **8h–11h** — Ghềnh Ráng → mộ Hàn Mặc Tử → Bãi Trứng → Bãi Hoàng Hậu.
 - **12h** — Bánh xèo tôm nhảy Mỹ Cảnh / Gia Vỹ.
-- **13h30–15h** — Trả phòng, gửi vali.
+- **13h30–15h** — Trả phòng Cá House, gửi vali tại lễ tân.
 - **15h–17h30** — Bãi Xếp chill cafe view biển.
 - **18h** — Mua đặc sản (rượu Bàu Đá, mực một nắng, bánh ít, bánh tráng nước dừa).
 - **19h** — Bữa cuối — cơm gà QN hoặc nem chả Chợ Huyện.
@@ -86,6 +96,30 @@ Biển Kỳ Co và Hòn Khô có nước trong, có rặng san hô để lặn n
 |---|---|
 | Đà Nẵng | ~5h sáng (bến xe ĐN) |
 | HCM | ~9–10h sáng (bến xe Miền Đông) |
+
+### 🍜 Quán ăn ngon Quy Nhơn · gần Cá House
+
+Tổng hợp các quán đặc sản trong bán kính đi bộ / ~10 phút từ Cá House (17 Phan Bội Châu).
+
+| 🍜 Bún & sáng | 🥞 Đặc sản trưa | 🦐 Hải sản tối |
+|---|---|---|
+| **Bún chả cá Bà Phượng** — 121 Trần Phú · ~5 phút bộ | **Bánh xèo tôm nhảy Mỹ Cảnh** — 14 Diên Hồng | Đường **Xuân Diệu** (~1.5km): **Cô Sáu**, **Hương Việt**, **Vương Quốc** |
+| **Bún cá Ngọc Liên** — 379 Nguyễn Huệ · ~7 phút bộ | **Bánh xèo Gia Vỹ** — Tăng Bạt Hổ | Cua Huỳnh Đế — đặc sản biển QN |
+| **Bún tôm Châu Trúc** — 32 Trần Cao Vân | Bánh hỏi cháo lòng — Diêu Trì (~15km) | Hải sản chợ Đầm — tươi, giá địa phương |
+| Bún rạm Bà Hai — Trần Hưng Đạo | Cơm gà Quy Nhơn — vài quán Trần Phú | |
+| Bún chả cá Cô Hạnh — gần bến xe | **Nem nướng Cô Tâm** — đường Quang Trung | |
+
+| ☕ Cafe / chill | 🎁 Đặc sản đem về |
+|---|---|
+| **Surf Bar** — Xuân Diệu, beer + cát view biển | **Rượu Bàu Đá** — đặc sản Bình Định |
+| Sky Bar — Trần Phú, rooftop view | Bánh ít lá gai · Bánh tráng nước dừa |
+| Cafe biển Trần Phú — nhiều quán waterfront | Mực một nắng · Cá ngừ khô |
+| **Chợ đêm Lê Lợi** — ~7 phút bộ từ Cá House | Nem chả Chợ Huyện — Tuy Phước (15km) |
+
+> 💡 **Add-on lịch sử Tây Sơn — Quang Trung** (nếu nhóm muốn tìm hiểu)
+>
+> - **Thành Hoàng Đế** ~22km Tây Bắc QN (~30 phút) — di tích kinh đô đầu Tây Sơn, có thể chèn vào Day 1 giữa Tháp Bánh Ít và Diêu Trì (+1h, không phải hi sinh stop nào).
+> - **Bảo tàng Quang Trung** ~45km (~1h15) ở Phú Phong — đầy đủ hơn về Quang Trung và Tây Sơn Tam Kiệt, nhưng cần ½ ngày + có thể phải bỏ Eo Gió.
 
 ## ② Phú Yên
 
@@ -174,10 +208,10 @@ Tổng hợp các tiêu chí. **Quy Nhơn** được đánh dấu là lựa ch�
 | Di chuyển HCM (2 người) | ~11h xe đêm | **~10h xe đêm** |
 | Biển và san hô | Kỳ Co, Hòn Khô — đẹp, dễ tổ chức | Hòn Yến, Bãi Xép — đẹp khi triều xuống |
 | Hải sản | **Đa dạng, rẻ, dễ tìm quán** | Cá ngừ đại dương, sò huyết Ô Loan |
-| Lưu trú | **Nhiều khách sạn 3-4 sao** | KS 3 sao Tuy Hòa, ít option hơn QN |
+| Lưu trú | **Cá House đã chốt + nhiều KS 3-4 sao** | KS 3 sao Tuy Hòa, ít option hơn QN |
 | Trải nghiệm nhóm | **Đa số nhóm (4 ĐN) gần hơn — chưa ai đi** | 2 thành viên đã từng đi Phú Yên |
 | Phù hợp | **Nhóm muốn cân bằng vui và chill** | Nhóm thích cảnh độc đáo, photogenic |
-| Ngân sách / người | ~3.0 – 3.7 triệu | ~3.0 – 3.7 triệu |
+| Ngân sách / người | **~2.8 – 3.5 triệu** | ~3.0 – 3.7 triệu |
 
 ## Chi tiết ngân sách
 
@@ -188,12 +222,12 @@ Tổng hợp các tiêu chí. **Quy Nhơn** được đánh dấu là lựa ch�
 | Hạng mục | Chi phí |
 |---|---|
 | Xe khách khứ hồi (ĐN/HCM) | 600 – 900k |
-| KS 2 đêm (3 sao, 3 phòng đôi) | ~470k |
+| Homestay Cá House (1.7M / 6 người · 2 đêm) | ~283k |
 | Tour Kỳ Co - Hòn Khô (cano + ăn trưa) | 600 – 800k |
 | Thuê xe 16 chỗ 2 ngày (chia 6) | 300 – 400k |
 | Ăn uống 8 bữa | 700 – 900k |
 | Vé tham quan và lặt vặt | 200 – 300k |
-| **Tổng / người** | **~3.0 – 3.7M** |
+| **Tổng / người** | **~2.8 – 3.5M** |
 
 ### ② Phú Yên — 3N2Đ · Xe khách · Tự túc
 

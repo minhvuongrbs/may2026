@@ -452,6 +452,117 @@ footer .mono {
   .travel-legs { grid-template-columns: 1fr; gap: 12px; }
 }
 
+/* Lodging card */
+.lodging-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 24px;
+  padding: 24px 28px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 16px;
+  margin-bottom: 40px;
+  align-items: start;
+}
+.lodging-icon { font-size: 36px; line-height: 1; padding-top: 4px; }
+.lodging-eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+.lodging-card h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 4px;
+}
+.lodging-address {
+  color: var(--ink-soft);
+  font-size: 14px;
+  margin: 4px 0 14px;
+}
+.lodging-stats > div {
+  font-size: 14px;
+  color: var(--ink-soft);
+  padding: 4px 0;
+  line-height: 1.5;
+}
+.lodging-stats strong { color: var(--ink); font-weight: 600; }
+@media (max-width: 700px) {
+  .lodging-card { grid-template-columns: 1fr; gap: 12px; padding: 20px; }
+}
+
+/* Food guide */
+.food-guide {
+  margin-top: 56px;
+  padding-top: 40px;
+  border-top: 1px solid var(--line);
+}
+.food-guide-h {
+  font-family: 'Fraunces', serif;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 6px;
+}
+.food-guide-sub {
+  color: var(--ink-soft);
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.food-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 22px;
+}
+.food-card .icon { font-size: 26px; margin-bottom: 10px; line-height: 1; }
+.food-card h4 {
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+.food-card ul { list-style: none; padding: 0; margin: 0; }
+.food-card li {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  padding: 7px 0;
+  border-top: 1px dashed var(--line);
+  line-height: 1.5;
+}
+.food-card li:first-child { border-top: none; padding-top: 0; }
+.food-card li b { color: var(--ink); font-weight: 600; }
+@media (max-width: 800px) { .food-grid { grid-template-columns: 1fr; } }
+
+/* Add-on note */
+.add-on-note {
+  display: flex;
+  gap: 14px;
+  padding: 18px 22px;
+  background: #fff8e6;
+  border: 1px solid #f0e0a8;
+  border-radius: 12px;
+  margin-top: 32px;
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+.add-on-note .add-on-icon { font-size: 22px; flex-shrink: 0; line-height: 1; padding-top: 2px; }
+.add-on-note strong { font-weight: 600; color: var(--ink); }
+.add-on-note p { color: var(--ink-soft); margin-top: 6px; }
+.add-on-note b { color: var(--ink); font-weight: 600; }
+
 /* Map itinerary section */
 .map-section {
   margin-bottom: 40px;
@@ -749,6 +860,20 @@ footer .mono {
       <p>Di chuyển thuận tiện cho cả 2 đoàn. Hạ tầng du lịch đủ tốt, dễ tìm khách sạn 3 sao cho nhóm 6 người.</p>
     </div>
 
+    <div class="lodging-card">
+      <div class="lodging-icon">🏡</div>
+      <div class="lodging-info">
+        <div class="lodging-eyebrow">Lưu trú · 2 đêm · đã chốt</div>
+        <h3>Cá House</h3>
+        <p class="lodging-address">17 Phan Bội Châu, Quy Nhơn — trung tâm Thị Nại</p>
+        <div class="lodging-stats">
+          <div><strong>1.700.000 VND</strong> / 6 người · 2 đêm — <strong>~283k/người</strong></div>
+          <div><strong>3 nam ĐN + 1 nữ ĐN + 2 nữ HCM</strong> — chia 3 nam + 3 nữ</div>
+          <div>~5 phút bộ ra Trần Phú · ~7 phút ra chợ đêm · ~1.5km tới hải sản Xuân Diệu</div>
+        </div>
+      </div>
+    </div>
+
     <h3 class="itinerary-h">Lịch trình</h3>
 
     <div class="travel">
@@ -788,7 +913,7 @@ footer .mono {
         <div class="day-num">Day 01 · Arrival + chill ⭐</div>
         <div class="day-date">Thứ Bảy · 16/5/2026</div>
         <h4>Tới Quy Nhơn — Bánh Ít — Eo Gió</h4>
-        <div class="slot"><span class="when">5h–9h</span><p>Đến QN, ăn sáng bún chả cá Cô Hạnh / Bà Phượng. Check-in KS, tắm rửa, chợp mắt 1–2h.</p></div>
+        <div class="slot"><span class="when">5h–9h</span><p>Đến QN, ăn sáng bún chả cá Cô Hạnh / Bà Phượng. Check-in <b>Cá House (17 Phan Bội Châu)</b>, tắm rửa, chợp mắt 1–2h.</p></div>
         <div class="slot"><span class="when">10h–12h</span><p>Tháp Bánh Ít (~15km, cụm Cham tower đẹp hơn Tháp Đôi).</p></div>
         <div class="slot"><span class="when">12h30</span><p>Bánh hỏi cháo lòng Diêu Trì.</p></div>
         <div class="slot"><span class="when">14h–17h</span><p>Eo Gió → Tịnh Xá Ngọc Hòa → sunset Eo Gió.</p></div>
@@ -804,7 +929,7 @@ footer .mono {
         <div class="slot"><span class="when">8h–12h</span><p>Kỳ Co — tắm, snorkel Bãi Dứa, mô tô nước.</p></div>
         <div class="slot"><span class="when">12h</span><p>Lunch hải sản trên đảo.</p></div>
         <div class="slot"><span class="when">13h30–16h</span><p>Hòn Khô — snorkel san hô, SUP / kayak.</p></div>
-        <div class="slot"><span class="when">17h</span><p>Về KS nghỉ.</p></div>
+        <div class="slot"><span class="when">17h</span><p>Về Cá House nghỉ. Tắm rửa, chuẩn bị tối.</p></div>
         <div class="slot"><span class="when">19h</span><p>Lẩu / nướng hoặc nem nướng Cô Tâm.</p></div>
         <div class="slot"><span class="when">21h</span><p>Surf Bar beer + cát, hoặc karaoke.</p></div>
       </div>
@@ -815,7 +940,7 @@ footer .mono {
         <div class="slot"><span class="when">7h</span><p>Bún cá Ngọc Liên.</p></div>
         <div class="slot"><span class="when">8h–11h</span><p>Ghềnh Ráng → mộ Hàn Mặc Tử → Bãi Trứng → Bãi Hoàng Hậu.</p></div>
         <div class="slot"><span class="when">12h</span><p>Bánh xèo tôm nhảy Mỹ Cảnh / Gia Vỹ.</p></div>
-        <div class="slot"><span class="when">13h30–15h</span><p>Trả phòng, gửi vali.</p></div>
+        <div class="slot"><span class="when">13h30–15h</span><p>Trả phòng Cá House, gửi vali tại lễ tân.</p></div>
         <div class="slot"><span class="when">15h–17h30</span><p>Bãi Xếp chill cafe view biển.</p></div>
         <div class="slot"><span class="when">18h</span><p>Mua đặc sản (rượu Bàu Đá, mực một nắng, bánh ít, bánh tráng nước dừa).</p></div>
         <div class="slot"><span class="when">19h</span><p>Bữa cuối — cơm gà QN hoặc nem chả Chợ Huyện.</p></div>
@@ -838,6 +963,76 @@ footer .mono {
         <div class="leg">
           <div class="from-to">Quy Nhơn → HCM</div>
           <div class="time">~9–10h sáng · tới bến xe Miền Đông</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="food-guide">
+      <h3 class="food-guide-h">Quán ăn ngon Quy Nhơn · gần Cá House</h3>
+      <p class="food-guide-sub">Tổng hợp các quán đặc sản trong bán kính đi bộ / ~10 phút từ Cá House (17 Phan Bội Châu).</p>
+      <div class="food-grid">
+        <div class="food-card">
+          <div class="icon">🍜</div>
+          <h4>Bún & sáng</h4>
+          <ul>
+            <li><b>Bún chả cá Bà Phượng</b> — 121 Trần Phú · ~5 phút bộ</li>
+            <li><b>Bún cá Ngọc Liên</b> — 379 Nguyễn Huệ · ~7 phút bộ</li>
+            <li><b>Bún tôm Châu Trúc</b> — 32 Trần Cao Vân</li>
+            <li>Bún rạm Bà Hai — Trần Hưng Đạo</li>
+            <li>Bún chả cá Cô Hạnh — gần bến xe</li>
+          </ul>
+        </div>
+        <div class="food-card">
+          <div class="icon">🥞</div>
+          <h4>Đặc sản trưa</h4>
+          <ul>
+            <li><b>Bánh xèo tôm nhảy Mỹ Cảnh</b> — 14 Diên Hồng</li>
+            <li><b>Bánh xèo Gia Vỹ</b> — Tăng Bạt Hổ</li>
+            <li>Bánh hỏi cháo lòng — Diêu Trì (~15km)</li>
+            <li>Cơm gà Quy Nhơn — vài quán Trần Phú</li>
+            <li><b>Nem nướng Cô Tâm</b> — đường Quang Trung</li>
+          </ul>
+        </div>
+        <div class="food-card">
+          <div class="icon">🦐</div>
+          <h4>Hải sản tối</h4>
+          <ul>
+            <li><b>Đường Xuân Diệu</b> (~1.5km): <b>Cô Sáu</b>, <b>Hương Việt</b>, <b>Vương Quốc</b></li>
+            <li>Cua Huỳnh Đế — đặc sản biển QN</li>
+            <li>Hải sản chợ Đầm — tươi, giá địa phương</li>
+          </ul>
+        </div>
+        <div class="food-card">
+          <div class="icon">☕</div>
+          <h4>Cafe / chill</h4>
+          <ul>
+            <li><b>Surf Bar</b> — Xuân Diệu, beer + cát view biển</li>
+            <li>Sky Bar — Trần Phú, view rooftop</li>
+            <li>Cafe biển Trần Phú — nhiều quán waterfront</li>
+            <li><b>Chợ đêm Lê Lợi</b> — ~7 phút bộ từ Cá House</li>
+          </ul>
+        </div>
+        <div class="food-card">
+          <div class="icon">🎁</div>
+          <h4>Đặc sản đem về</h4>
+          <ul>
+            <li><b>Rượu Bàu Đá</b> — đặc sản Bình Định</li>
+            <li>Bánh ít lá gai · Bánh tráng nước dừa</li>
+            <li>Mực một nắng · Cá ngừ khô</li>
+            <li>Nem chả Chợ Huyện — Tuy Phước (15km)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="add-on-note">
+        <div class="add-on-icon">💡</div>
+        <div>
+          <strong>Add-on lịch sử Tây Sơn — Quang Trung</strong> (nếu nhóm muốn tìm hiểu)
+          <p>
+            <b>Thành Hoàng Đế</b> ~22km Tây Bắc QN (~30 phút) — di tích kinh đô đầu Tây Sơn, có thể chèn vào Day 1 giữa Tháp Bánh Ít và Diêu Trì (+1h, không phải hi sinh stop nào).
+            <br><br>
+            <b>Bảo tàng Quang Trung</b> ~45km (~1h15) ở Phú Phong — đầy đủ hơn về Quang Trung và Tây Sơn Tam Kiệt, nhưng cần ½ ngày + có thể phải bỏ Eo Gió.
+          </p>
         </div>
       </div>
     </div>
@@ -987,10 +1182,10 @@ footer .mono {
         <tr><th>Di chuyển HCM (2)</th><td>~11h xe đêm</td><td class="winner">~10h xe đêm</td></tr>
         <tr><th>Biển và san hô</th><td>Kỳ Co, Hòn Khô — đẹp, dễ tổ chức</td><td>Hòn Yến, Bãi Xép — đẹp khi triều xuống</td></tr>
         <tr><th>Hải sản</th><td class="winner">Đa dạng, rẻ, dễ tìm quán</td><td>Cá ngừ đại dương, sò huyết Ô Loan</td></tr>
-        <tr><th>Lưu trú</th><td class="winner">Nhiều khách sạn 3-4 sao</td><td>KS 3 sao Tuy Hòa, ít option hơn QN</td></tr>
+        <tr><th>Lưu trú</th><td class="winner">Cá House đã chốt + nhiều KS 3-4 sao</td><td>KS 3 sao Tuy Hòa, ít option hơn QN</td></tr>
         <tr><th>Trải nghiệm nhóm</th><td class="winner">Đa số nhóm (4 ĐN) gần hơn — chưa ai đi</td><td>2 thành viên đã từng đi Phú Yên</td></tr>
         <tr><th>Phù hợp</th><td class="winner">Nhóm muốn cân bằng vui và chill</td><td>Nhóm thích cảnh độc đáo, photogenic</td></tr>
-        <tr><th>Ngân sách / người</th><td>~3.0 – 3.7 triệu</td><td>~3.0 – 3.7 triệu</td></tr>
+        <tr><th>Ngân sách / người</th><td class="winner">~2.8 – 3.5 triệu</td><td>~3.0 – 3.7 triệu</td></tr>
       </tbody>
     </table>
   </div>
@@ -1006,12 +1201,12 @@ footer .mono {
         <h3>① Quy Nhơn</h3>
         <p class="sub">3N2Đ · Xe khách · Tự túc</p>
         <div class="row"><span>Xe khách khứ hồi (ĐN/HCM)</span><span class="num">600 – 900k</span></div>
-        <div class="row"><span>KS 2 đêm (3 sao, 3 phòng đôi)</span><span class="num">~470k</span></div>
+        <div class="row"><span>Homestay Cá House (1.7M / 6 người · 2 đêm)</span><span class="num">~283k</span></div>
         <div class="row"><span>Tour Kỳ Co - Hòn Khô (cano + ăn trưa)</span><span class="num">600 – 800k</span></div>
         <div class="row"><span>Thuê xe 16 chỗ 2 ngày (chia 6)</span><span class="num">300 – 400k</span></div>
         <div class="row"><span>Ăn uống 8 bữa</span><span class="num">700 – 900k</span></div>
         <div class="row"><span>Vé tham quan và lặt vặt</span><span class="num">200 – 300k</span></div>
-        <div class="row total"><span>Tổng / người</span><span class="num">~3.0 – 3.7M</span></div>
+        <div class="row total"><span>Tổng / người</span><span class="num">~2.8 – 3.5M</span></div>
       </div>
       <div class="budget-card">
         <h3>② Phú Yên</h3>
@@ -1061,12 +1256,13 @@ const QN_DAYS = {
     title: 'Arrival + Bánh Ít + Eo Gió',
     subtitle: 'Hồi phục sau xe đêm. Cụm Bắc Quy Nhơn — kiến trúc Cham + sunset Eo Gió.',
     stops: [
-      { num: 1, time: '5h–9h',   period: 'Sáng',  name: 'Bến xe Quy Nhơn → KS', desc: 'Đến QN, ăn sáng bún chả cá Cô Hạnh / Bà Phượng. Check-in KS, tắm rửa, chợp mắt 1–2h.', lat: 13.7533, lng: 109.2089 },
-      { num: 2, time: '10h–12h', period: 'Sáng',  name: 'Tháp Bánh Ít',          desc: '~15km Tây Bắc. Cụm Cham tower đẹp hơn Tháp Đôi.',                                  lat: 13.8684, lng: 109.1352 },
-      { num: 3, time: '12h30',   period: 'Trưa',  name: 'Bánh hỏi cháo lòng Diêu Trì', desc: 'Đặc sản Bình Định, ngay trên đường về.',                                       lat: 13.8072, lng: 109.1437 },
-      { num: 4, time: '14h–17h', period: 'Chiều', name: 'Eo Gió + Tịnh Xá Ngọc Hòa', desc: 'Con đường ven biển, tượng Quan Âm 30m. Sunset Eo Gió ~17h.',                     lat: 13.8849, lng: 109.2920 },
-      { num: 5, time: '18h30',   period: 'Tối',   name: 'Hải sản Xuân Diệu',     desc: 'Quán Cô Sáu / Hương Việt, bia hơi.',                                                lat: 13.7702, lng: 109.2406 },
-      { num: 6, time: '21h',     period: 'Tối',   name: 'Cầu Thị Nại',           desc: 'Cầu vượt biển dài nhất VN, view đêm. Về sớm ngủ.',                                  lat: 13.8140, lng: 109.2412 }
+      { num: 1, time: '5h–6h',   period: 'Sáng',  name: 'Bến xe Quy Nhơn',       desc: 'Đến QN, ăn sáng bún chả cá Cô Hạnh / Bà Phượng gần bến.',                            lat: 13.7533, lng: 109.2089 },
+      { num: 2, time: '6h–9h',   period: 'Sáng',  name: 'Check-in Cá House',     desc: '17 Phan Bội Châu, trung tâm Thị Nại. Tắm rửa, chợp mắt 1–2h.',                       lat: 13.7748, lng: 109.2315 },
+      { num: 3, time: '10h–12h', period: 'Sáng',  name: 'Tháp Bánh Ít',          desc: '~15km Tây Bắc. Cụm Cham tower đẹp hơn Tháp Đôi.',                                  lat: 13.8684, lng: 109.1352 },
+      { num: 4, time: '12h30',   period: 'Trưa',  name: 'Bánh hỏi cháo lòng Diêu Trì', desc: 'Đặc sản Bình Định, ngay trên đường về.',                                       lat: 13.8072, lng: 109.1437 },
+      { num: 5, time: '14h–17h', period: 'Chiều', name: 'Eo Gió + Tịnh Xá Ngọc Hòa', desc: 'Con đường ven biển, tượng Quan Âm 30m. Sunset Eo Gió ~17h.',                     lat: 13.8849, lng: 109.2920 },
+      { num: 6, time: '18h30',   period: 'Tối',   name: 'Hải sản Xuân Diệu',     desc: 'Quán Cô Sáu / Hương Việt, bia hơi.',                                                lat: 13.7702, lng: 109.2406 },
+      { num: 7, time: '21h',     period: 'Tối',   name: 'Cầu Thị Nại',           desc: 'Cầu vượt biển dài nhất VN, view đêm. Về sớm ngủ.',                                  lat: 13.8140, lng: 109.2412 }
     ]
   },
   2: {
@@ -1079,7 +1275,7 @@ const QN_DAYS = {
       { num: 3, time: '8h–12h',   period: 'Sáng',  name: 'Kỳ Co + Bãi Dứa',        desc: 'Tắm, snorkel, mô tô nước. Bãi Dứa lặn ngắm san hô.',                               lat: 13.8501, lng: 109.2923 },
       { num: 4, time: '12h',      period: 'Trưa',  name: 'Lunch hải sản trên đảo', desc: 'Nhà hàng trên Kỳ Co, hải sản tươi.',                                                lat: 13.8505, lng: 109.2930 },
       { num: 5, time: '13h30–16h', period: 'Chiều', name: 'Hòn Khô',               desc: 'Snorkel san hô, SUP / kayak. Bãi cát mịn.',                                         lat: 13.7644, lng: 109.2993 },
-      { num: 6, time: '17h',      period: 'Chiều', name: 'Về KS nghỉ',             desc: 'Tắm rửa, nghỉ ngơi.',                                                               lat: 13.7700, lng: 109.2255 },
+      { num: 6, time: '17h',      period: 'Chiều', name: 'Về Cá House nghỉ',       desc: 'Về 17 Phan Bội Châu. Tắm rửa, chuẩn bị bữa tối.',                                  lat: 13.7748, lng: 109.2315 },
       { num: 7, time: '19h',      period: 'Tối',   name: 'Lẩu / Nem nướng Cô Tâm', desc: 'Bữa tối ấm cúng, nem nướng đặc sản.',                                              lat: 13.7700, lng: 109.2300 },
       { num: 8, time: '21h',      period: 'Tối',   name: 'Surf Bar / karaoke',     desc: 'Beer + cát view biển, hoặc karaoke nhóm.',                                          lat: 13.7702, lng: 109.2355 }
     ]
@@ -1092,7 +1288,7 @@ const QN_DAYS = {
       { num: 1, time: '7h',         period: 'Sáng',  name: 'Bún cá Ngọc Liên',           desc: 'Quán bún cá nổi tiếng, ăn sáng.',                                                lat: 13.7651, lng: 109.2245 },
       { num: 2, time: '8h–11h',     period: 'Sáng',  name: 'Ghềnh Ráng cluster',         desc: 'Ghềnh Ráng Tiên Sa → mộ Hàn Mặc Tử → Bãi Trứng → Bãi Hoàng Hậu.',                lat: 13.7440, lng: 109.2135 },
       { num: 3, time: '12h',        period: 'Trưa',  name: 'Bánh xèo tôm nhảy',          desc: 'Quán Mỹ Cảnh / Gia Vỹ, đặc sản QN.',                                              lat: 13.7700, lng: 109.2210 },
-      { num: 4, time: '13h30–15h',  period: 'Chiều', name: 'Trả phòng KS, gửi vali',     desc: 'Pack đồ, gửi vali tại lễ tân.',                                                   lat: 13.7700, lng: 109.2255 },
+      { num: 4, time: '13h30–15h',  period: 'Chiều', name: 'Trả phòng Cá House, gửi vali', desc: 'Pack đồ, gửi vali tại lễ tân Cá House.',                                       lat: 13.7748, lng: 109.2315 },
       { num: 5, time: '15h–17h30',  period: 'Chiều', name: 'Bãi Xếp QN chill cafe',      desc: 'Bãi nhỏ phía Nam, view biển, cafe yên tĩnh.',                                     lat: 13.6861, lng: 109.2300 },
       { num: 6, time: '18h',        period: 'Chiều', name: 'Mua đặc sản',                desc: 'Rượu Bàu Đá, mực một nắng, bánh ít, bánh tráng nước dừa.',                        lat: 13.7700, lng: 109.2220 },
       { num: 7, time: '19h',        period: 'Tối',   name: 'Bữa cuối',                   desc: 'Cơm gà Quy Nhơn hoặc nem chả Chợ Huyện.',                                         lat: 13.7693, lng: 109.2210 },
